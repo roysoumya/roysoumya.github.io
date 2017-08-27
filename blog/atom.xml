@@ -1,0 +1,27 @@
+---
+layout: feed
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="https://www.w3.org/2005/Atom">
+
+	<title>Soumyadeep Roy's Blog</title>
+	<link href="https://roysoumya.github.io/blog/atom.xml" rel="self"/>
+	<link href="https://roysoumya.github.io/blog"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>https://roysoumya.github.io/blog</id>
+	<author>
+		<name>Soumyadeep Roy</name>
+		<email>soumyadeep.roy9@gmail.com</email>
+	</author>
+
+	{% for post in site.posts %}
+		<entry>
+			<title>{{ post.title }}</title>
+			<link href="https://roysoumya.github.io{{ post.url }}"/>
+			<updated>{{ post.date | date_to_xmlschema }}</updated>
+			<id>https://roysoumya.github.io{{ post.id }}</id>
+			<content type="html">{{ post.content | xml_escape }}</content>
+		</entry>
+	{% endfor %}
+
+</feed>
