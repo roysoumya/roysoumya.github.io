@@ -7,7 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-## Teaching
+# Teaching
 
 ### IIT Kharagpur
 
@@ -28,7 +28,7 @@ nav_order: 6
 
 * Programming with C and Datastructures and Algorithms - I performed the role of CodeChef Campus Chapter Representative of Kalyani Government Engineering College from 2015 to 2017, and co-founded the college programming club, KeyGEnCoders in March 2015.
 
-## Mentoring 
+# Mentoring 
 
 ### M.Tech Thesis:
 

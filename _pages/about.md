@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:  Passionate about research in the interdisplinary areas of medical NLP, Gene transformers and LLMs for medical QA and summarization, specifically in limited data settings. Life motto - Breathe and build.
+subtitle: Life motto - Breathe and Build. Passionate about interdisciplinary research related to medical NLP, fast pretraining of gene transformer models and adapting LLMs for medical QA and summarization, specifically in limited data settings. 
 
 profile:
   align: right
