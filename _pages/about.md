@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:  Ph.D. Canditate (Institute Ph.D. Fellowship)
 
 profile:
   align: right
@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. 
+I am an Institute Ph.D. Research Fellow in the Department of Computer Science and Engineering at IIT Kharagpur, supervised by [Prof. Niloy Ganguly](http://www.facweb.iitkgp.ac.in/~niloy/) and [Prof. Shamik Sural](http://www.facweb.iitkgp.ac.in/~shamik/). I am working on cutting-edge artificial intelligence research with applications to precision medicine. My research interests include medical NLP, gene transformers, and language model pretraining for medicine.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Currently, I am part of the [Complex Networks Research Group (CNeRG)](https://cnerg-iitkgp.github.io/) at IIT Kharagpur. I have spent 2.5 years (January 2021 - July 2023) working as a Research Associate at the [Leibniz AI Future Lab](https://leibniz-ai-lab.de/), [L3S Research Center](https://www.l3s.de/) in Germany, with [Prof. Wolfgang Nejdl](http://www.kbs.uni-hannover.de/~nejdl/). In collaboration with the Hannover Medical School, Germany, I have developed a novel machine-learning methodology for identifying novel patient subtypes for Parkinson's disease, aiming to develop personalized treatment regimens that are more effective. Before joining Ph.D., I have completed an M.S Research degree at CSE Dept. at IIT Kharagpur and my B.Tech degree at [Kalyani Government Engineering College](https://kgec.edu.in/), West Bengal India.
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching and Mentorship
+title: teaching
 description: I first provide the list of courses where I played the role of a Teaching Assistant at IIT Kharagpur, India and Leibniz University Hannover, Germany. Next, I describe my mentorship experience over 1 B.Tech and 3 M.Tech Thesis at IIT Kharagpur.
 nav: true
 nav_order: 6
