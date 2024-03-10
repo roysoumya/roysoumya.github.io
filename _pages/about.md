@@ -2,17 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle: <a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Curriculum Vitae</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p> Address: </p>
     <p>Complex Networks Research Lab, Dept. of CSE,</p>
     <p>Indian Institute of Technology Kharagpur,</p>
     <p>West Bengal, India - 721302</p>
+    <a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Curriculum Vitae</a>
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
