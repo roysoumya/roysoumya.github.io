@@ -55,19 +55,19 @@ To cite our work, please use the following BibTex:
 
     ---
     @INPROCEEDINGS{10224716,
-  author={Roy, Soumyadeep and Ganguly, Niloy and Sural, Shamik and Rudra, Koustav},
-  booktitle={2023 IEEE International Conference on Digital Health (ICDH)}, 
-  title={Interpretable Clinical Trial Search using Pubmed Citation Network}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={328-338},
-  keywords={Training;Codes;Terminology;Precision medicine;Knowledge based systems;Clinical trials;Benchmark testing;clinical trial;citation network;metapath-based similarity search;interpretability},
-  doi={10.1109/ICDH60066.2023.00056},
-  pdf={ICDH_2023_ClinicalTrials_paper.pdf},
-  url={https://ieeexplore.ieee.org/document/10224716/},
-  abstract={Clinical trials are an essential source of information for practicing Evidence-Based Medicine because they help to determine the efficacy of newly developed treatments and drugs. However, most of the existing trial search systems focus on a specific disease (e.g., cancer) and utilize disease-specific knowledge bases that hinder the adaptation of such methods to new diseases. In this work, we overcome both limitations and propose a graph-based model that explores both clinical trials and the Pubmed databases to alleviate the shortage of relevant clinical trials for a query. We construct a large heterogeneous graph (750K nodes and 1.2 Million edges) made of clinical trials and Pubmed articles linked to clinical trials. As both the graph edges and nodes are labeled, we develop a novel metapath-based similarity search (MPSS) method to retrieve and rank clinical trials across multiple disease classes. We primarily focus on consumers and users that do not have any prior medical knowledge. As there are no multiple disease-wide trial search evaluation datasets, we contribute a high-quality, well-annotated query-relevant trial set comprising around 25 queries and, on average, approximately 95 annotated trials per query. We also perform a detailed evaluation of MPSS on the TREC Precision Medicine Benchmark Dataset, a disease-specific clinical trial search setting. We make all the codes and data publicly available at https://github.com/roysoumya/MPSS-clinical-trial-search.}
-}
+    author={Roy, Soumyadeep and Ganguly, Niloy and Sural, Shamik and Rudra, Koustav},
+    booktitle={2023 IEEE International Conference on Digital Health (ICDH)}, 
+    title={Interpretable Clinical Trial Search using Pubmed Citation Network}, 
+    year={2023},
+    volume={},
+    number={},
+    pages={328-338},
+    keywords={Training;Codes;Terminology;Precision medicine;Knowledge based systems;Clinical trials;Benchmark testing;clinical trial;citation network;metapath-based similarity search;interpretability},
+    doi={10.1109/ICDH60066.2023.00056},
+    pdf={ICDH_2023_ClinicalTrials_paper.pdf},
+    url={https://ieeexplore.ieee.org/document/10224716/},
+    abstract={Clinical trials are an essential source of information for practicing Evidence-Based Medicine because they help to determine the efficacy of newly developed treatments and drugs. However, most of the existing trial search systems focus on a specific disease (e.g., cancer) and utilize disease-specific knowledge bases that hinder the adaptation of such methods to new diseases. In this work, we overcome both limitations and propose a graph-based model that explores both clinical trials and the Pubmed databases to alleviate the shortage of relevant clinical trials for a query. We construct a large heterogeneous graph (750K nodes and 1.2 Million edges) made of clinical trials and Pubmed articles linked to clinical trials. As both the graph edges and nodes are labeled, we develop a novel metapath-based similarity search (MPSS) method to retrieve and rank clinical trials across multiple disease classes. We primarily focus on consumers and users that do not have any prior medical knowledge. As there are no multiple disease-wide trial search evaluation datasets, we contribute a high-quality, well-annotated query-relevant trial set comprising around 25 queries and, on average, approximately 95 annotated trials per query. We also perform a detailed evaluation of MPSS on the TREC Precision Medicine Benchmark Dataset, a disease-specific clinical trial search setting. We make all the codes and data publicly available at https://github.com/roysoumya/MPSS-clinical-trial-search.}
+    }
 
     ---
 
