@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Data-driven Patient Subtyping for Parkinson's Disease
-description: Developing an integrated framework for understanding brand consistency from online content
+description: Identifying novel PD subtypes using an interpretable decision-tree-based method that is robustly reproducible in an independent PD cohort.
 img: assets/img/12.jpg
 importance: 4
 category: work

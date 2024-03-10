@@ -19,6 +19,9 @@ category: work
     Method overview of GENEMASK, our proposed masking algorithm for MLM training of gene sequences, where we randomly select mask centers over the input DNA string and locally select the span around the mask center with the highest Normalized Pointwise Mutual Information (NPMI-k) to mask
 </div>
 
+### Publications
+ECAI 2023 Full paper. Awarded 3rd prize in poster presentation at the [4th Indian Symposium on Machine Learning](https://indoml.in/) (IndoML 2023) held at IIT Bombay for our ECAI 2023 work on fast pretraining of gene transformer models. 
+
 # Knowledge-aware NLP models for Medical Forum Question Classification
 
 <div class="row">
@@ -29,6 +32,9 @@ category: work
 <div class="caption">
      (left) Anecdotal example from ICHI dataset where medical concept-bearing aspects (marked red) are high-lighted along with context (right) Methodology overview of MedBERT for medical forum question classification task
 </div>
+
+### Publications
+CIKM 2021 Short paper.
 
 {% raw %}
 
