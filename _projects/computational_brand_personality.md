@@ -5,10 +5,10 @@ description: Developing an integrated framework for understanding brand consiste
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications:
+    - 10.1145/3292522.3326048
+    - 10.1145/3450445
 ---
-
-# Developing an integrated framework for understanding brand consistency from online content
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
