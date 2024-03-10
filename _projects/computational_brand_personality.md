@@ -5,9 +5,7 @@ description: Developing an integrated framework for understanding brand consiste
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications:
-    - 10.1145/3292522.3326048
-    - 10.1145/3450445
+
 ---
 
 <div class="row">
