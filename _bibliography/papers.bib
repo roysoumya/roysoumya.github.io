@@ -1,7 +1,7 @@
 ---
 ---
 
-@inbook{Roy2023,
+@inproceedings{Roy2023,
   title = {GENEMASK: Fast Pretraining of Gene Sequences to Enable Few-Shot Learning},
   ISBN = {9781643684376},
   ISSN = {1879-8314},
@@ -15,7 +15,7 @@
   month = {Sep},
   preview={brownian-motion.gif},
   selected={true},
-  pdf={example_pdf.pdf},
+  pdf={ECAI 2023 Limelight-1.pdf},
   abstract={Large-scale language models such as DNABert and LOGO aim to learn optimal gene representations and are trained on the entire Human Reference Genome. However, standard tokenization schemes involve a simple sliding window of tokens like k-mers that do not leverage any gene-based semantics and thus may lead to (trivial) masking of easily predictable sequences, and subsequently inefficient Masked Language Modeling (MLM) training. Therefore, we propose a novel masking algorithm, GENEMASK, for MLM training of gene sequences, where we randomly identify positions in a gene sequence as mask centers and locally select the span around the mask center with the highest Normalized Pointwise Mutual Information (NPMI) to mask. We observe that in the absence of human-understandable semantics in the genomics domain (in contrast, semantic units like words and phrases are inherently available in NLP), GENEMASK-based models substantially outperform the SOTA models (DNABert and LOGO) over four benchmark gene sequence classification datasets in five few-shot settings (10 to 1000-shot). More significantly, the GENEMASK-based DNABert model is trained for less than one-tenth of the number of epochs of the original SOTA model. We also observe a strong correlation between top-ranked PMI tokens and conserved DNA sequence motifs, which may indicate the incorporation of latent genomic information. The codes (including trained models) and datasets are made publicly available at unmapped: uri https://github.com/roysoumya/GeneMask.}
 }
 
@@ -31,7 +31,8 @@
   doi={10.1109/ICDH60066.2023.00056},
   preview={brownian-motion.gif},
   selected={true},
-  pdf={example_pdf.pdf},
+  pdf={ICDH_2023_ClinicalTrials_paper.pdf},
+  html={https://ieeexplore.ieee.org/document/10224716/},
   abstract={Clinical trials are an essential source of information for practicing Evidence-Based Medicine because they help to determine the efficacy of newly developed treatments and drugs. However, most of the existing trial search systems focus on a specific disease (e.g., cancer) and utilize disease-specific knowledge bases that hinder the adaptation of such methods to new diseases. In this work, we overcome both limitations and propose a graph-based model that explores both clinical trials and the Pubmed databases to alleviate the shortage of relevant clinical trials for a query. We construct a large heterogeneous graph (750K nodes and 1.2 Million edges) made of clinical trials and Pubmed articles linked to clinical trials. As both the graph edges and nodes are labeled, we develop a novel metapath-based similarity search (MPSS) method to retrieve and rank clinical trials across multiple disease classes. We primarily focus on consumers and users that do not have any prior medical knowledge. As there are no multiple disease-wide trial search evaluation datasets, we contribute a high-quality, well-annotated query-relevant trial set comprising around 25 queries and, on average, approximately 95 annotated trials per query. We also perform a detailed evaluation of MPSS on the TREC Precision Medicine Benchmark Dataset, a disease-specific clinical trial search setting. We make all the codes and data publicly available at https://github.com/roysoumya/MPSS-clinical-trial-search.}
 }
 
@@ -42,7 +43,7 @@ year = {2021},
 isbn = {9781450384469},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3459637.3482128},
+html = {https://doi.org/10.1145/3459637.3482128},
 doi = {10.1145/3459637.3482128},
 abstract = {Online medical forums have become a predominant platform for answering health-related information needs of consumers. However, with a significant rise in the number of queries and the limited availability of experts, it is necessary to automatically classify medical queries based on a consumer's intention, so that these questions may be directed to the right set of medical experts. Here, we develop a novel medical knowledge-aware BERT-based model (MedBERT) that explicitly gives more weightage to medical concept-bearing words, and utilize domain-specific side information obtained from a popular medical knowledge base. We also contribute a multi-label dataset for the Medical Forum Question Classification (MFQC) task. MedBERT achieves state-of-the-art performance on two benchmark datasets and performs very well in low resource settings.},
 booktitle = {Proceedings of the 30th ACM International Conference on Information \& Knowledge Management},
@@ -53,7 +54,7 @@ location = {Virtual Event, Queensland, Australia},
 series = {CIKM '21},
 selected={true},
 preview={brownian-motion.gif},
-pdf={example_pdf.pdf}
+pdf={KnowledgeAwareCIKM2021.pdf}
 }
 
 @article{10.1145/3450445,
@@ -66,7 +67,7 @@ address = {New York, NY, USA},
 volume = {15},
 number = {2},
 issn = {1559-1131},
-url = {https://doi.org/10.1145/3450445},
+html = {https://doi.org/10.1145/3450445},
 doi = {10.1145/3450445},
 abstract = {A consumer-dependent (business-to-consumer) organization tends to present itself as possessing a set of human qualities, which is termed the brand personality of the company. The perception is impressed upon the consumer through the content, be it in the form of advertisement, blogs, or magazines, produced by the organization. A consistent brand will generate trust and retain customers over time as they develop an affinity toward regularity and common patterns. However, maintaining a consistent messaging tone for a brand has become more challenging with the virtual explosion in the amount of content that needs to be authored and pushed to the Internet to maintain an edge in the era of digital marketing. To understand the depth of the problem, we collect around 300K web page content from around 650 companies. We develop trait-specific classification models by considering the linguistic features of the content. The classifier automatically identifies the web articles that are not consistent with the mission and vision of a company and further helps us to discover the conditions under which the consistency cannot be maintained. To address the brand inconsistency issue, we then develop a sentence ranking system that outputs the top three sentences that need to be changed for making a web article more consistent with the company’s brand personality.},
 journal = {ACM Trans. Web},
@@ -74,10 +75,9 @@ month = {may},
 articleno = {9},
 numpages = {25},
 keywords = {text classification, sentence ranking, online reputation management, Brand personality},
-preview={brownian-motion.gif},
 selected={true},
 preview={brownian-motion.gif},
-pdf={example_pdf.pdf}
+pdf={BrandConsistencyTWEB.pdf}
 }
 
 @inproceedings{10.1145/3292522.3326048,
@@ -87,7 +87,7 @@ year = {2019},
 isbn = {9781450362023},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3292522.3326048},
+html = {https://doi.org/10.1145/3292522.3326048},
 doi = {10.1145/3292522.3326048},
 abstract = {Brands produce content to engage with the audience continually and tend to maintain a set of human characteristics in their marketing campaigns. In this era of digital marketing, they need to create a lot of content to keep up the engagement with their audiences. However, such kind of content authoring at scale introduces challenges in maintaining consistency in a brand's messaging tone, which is very important from a brand's perspective to ensure a persistent impression for its customers and audiences. In this work, we quantify brand personality and formulate its linguistic features. We score text articles extracted from brand communications on five personality dimensions: sincerity, excitement, competence, ruggedness and sophistication, and show that a linear SVM model achieves a decent F1 score of $0.822$. The linear SVM allows us to annotate a large set of data points free of any annotation error. We utilize this huge annotated dataset to characterize the notion of brand consistency, which is maintaining a company's targeted brand personality across time and over different content categories; we make certain interesting observations. As per our knowledge, this is the first study which investigates brand personality from the company's official websites, and that formulates and analyzes the notion of brand consistency on such a large scale.},
 booktitle = {Proceedings of the 10th ACM Conference on Web Science},
@@ -96,7 +96,7 @@ numpages = {9},
 keywords = {text classification, reputation management, brand personality, affective computing},
 location = {Boston, Massachusetts, USA},
 series = {WebSci '19},
-pdf={example_pdf.pdf},
+pdf={BrandConsistencyFullPaper.pdf},
 preview={brownian-motion.gif}
 }
 
@@ -116,8 +116,9 @@ address="Cham",
 pages="209--222",
 abstract="Clinical Trials are crucial for the practice of evidence-based medicine. It provides updated and essential health-related information for the patients. Sometimes, Clinical trials are the first source of information about new drugs and treatments. Different stakeholders, such as trial volunteers, trial investigators, and meta-analyses researchers often need to search for trials. In this paper, we propose an automated method to retrieve relevant trials based on the overlap of UMLS concepts between the user query and clinical trials. However, different stakeholders may have different information needs, and accordingly, we rank the retrieved clinical trials based on the following four aspects -- Relevancy, Adversity, Recency, and Popularity. We aim to develop a clinical trial search system which covers multiple disease classes, instead of only focusing on retrieval of oncology-based clinical trials. We follow a rigorous annotation scheme and create an annotated retrieval set for 25 queries, across five disease categories. Our proposed method performs better than the baseline model in almost {\$}{\$}90{\backslash}{\%}{\$}{\$} cases. We also measure the correlation between the different aspect-based ranking lists and observe a high negative Spearman rank's correlation coefficient between popularity and recency.",
 isbn="978-3-030-34980-6",
-pdf={example_pdf.pdf},
-preview={brownian-motion.gif}
+pdf={2019-soumyadeep-CSONET.pdf},
+preview={brownian-motion.gif},
+html={https://link.springer.com/chapter/10.1007/978-3-030-34980-6_25}
 }
 
 @Inbook{Roy2018,
@@ -138,7 +139,7 @@ pages="69--79",
 abstract="Email is important for task and project management, information exchange, scheduling, and also for social communication among users. Understanding the pattern of interaction in between the email and the recipients as well as the factors which are responsible for determining user replying behavior help in addressing the problem of email overload, which users face due to the increasing volume of email traffic. In this paper, we develop a binary classification model to predict an email recipient response, based on certain email metadata and recipient email usage characteristics. For this task, we study a 2016 HackerRank contest email dataset. We first identify email interactivity patterns separately for each recipient response and then understand the factors responsible for determining the user response to an email. We then propose a novel feature selection methodology where we perform dataset profiling based on user and sent day characteristics, using k-means clustering. We observe that the Decision Tree classifier performs the best with a F1 score of 0.6279 and the fraction of emails opened by the recipient in the past being the most significant feature for the model.",
 isbn="978-981-13-2345-4",
 doi="10.1007/978-981-13-2345-4_6",
-url="https://doi.org/10.1007/978-981-13-2345-4_6",
-pdf="example_pdf.pdf",
+html="https://doi.org/10.1007/978-981-13-2345-4_6",
+pdf="RoyEmailInteractivityCICBA2018.pdf",
 preview="brownian-motion.gif"
 }
