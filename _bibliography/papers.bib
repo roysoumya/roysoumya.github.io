@@ -15,7 +15,9 @@
   month = {Sep},
   selected={true},
   pdf={ECAI 2023 Limelight-1.pdf},
-  abstract={Large-scale language models such as DNABert and LOGO aim to learn optimal gene representations and are trained on the entire Human Reference Genome. However, standard tokenization schemes involve a simple sliding window of tokens like k-mers that do not leverage any gene-based semantics and thus may lead to (trivial) masking of easily predictable sequences, and subsequently inefficient Masked Language Modeling (MLM) training. Therefore, we propose a novel masking algorithm, GENEMASK, for MLM training of gene sequences, where we randomly identify positions in a gene sequence as mask centers and locally select the span around the mask center with the highest Normalized Pointwise Mutual Information (NPMI) to mask. We observe that in the absence of human-understandable semantics in the genomics domain (in contrast, semantic units like words and phrases are inherently available in NLP), GENEMASK-based models substantially outperform the SOTA models (DNABert and LOGO) over four benchmark gene sequence classification datasets in five few-shot settings (10 to 1000-shot). More significantly, the GENEMASK-based DNABert model is trained for less than one-tenth of the number of epochs of the original SOTA model. We also observe a strong correlation between top-ranked PMI tokens and conserved DNA sequence motifs, which may indicate the incorporation of latent genomic information. The codes (including trained models) and datasets are made publicly available at unmapped: uri https://github.com/roysoumya/GeneMask.}
+  abstract={Large-scale language models such as DNABert and LOGO aim to learn optimal gene representations and are trained on the entire Human Reference Genome. However, standard tokenization schemes involve a simple sliding window of tokens like k-mers that do not leverage any gene-based semantics and thus may lead to (trivial) masking of easily predictable sequences, and subsequently inefficient Masked Language Modeling (MLM) training. Therefore, we propose a novel masking algorithm, GENEMASK, for MLM training of gene sequences, where we randomly identify positions in a gene sequence as mask centers and locally select the span around the mask center with the highest Normalized Pointwise Mutual Information (NPMI) to mask. We observe that in the absence of human-understandable semantics in the genomics domain (in contrast, semantic units like words and phrases are inherently available in NLP), GENEMASK-based models substantially outperform the SOTA models (DNABert and LOGO) over four benchmark gene sequence classification datasets in five few-shot settings (10 to 1000-shot). More significantly, the GENEMASK-based DNABert model is trained for less than one-tenth of the number of epochs of the original SOTA model. We also observe a strong correlation between top-ranked PMI tokens and conserved DNA sequence motifs, which may indicate the incorporation of latent genomic information. The codes (including trained models) and datasets are made publicly available at unmapped: uri https://github.com/roysoumya/GeneMask.},
+  code={https://github.com/roysoumya/genemask},
+  slides={https://github.com/roysoumya/datanalytics101-resources/blob/master/slides/ECAI2023_GeneMask_FastPretrainingFewShot.pdf}
 }
 
 @INPROCEEDINGS{10224716,
@@ -31,7 +33,9 @@
   selected={true},
   pdf={ICDH_2023_ClinicalTrials_paper.pdf},
   html={https://ieeexplore.ieee.org/document/10224716/},
-  abstract={Clinical trials are an essential source of information for practicing Evidence-Based Medicine because they help to determine the efficacy of newly developed treatments and drugs. However, most of the existing trial search systems focus on a specific disease (e.g., cancer) and utilize disease-specific knowledge bases that hinder the adaptation of such methods to new diseases. In this work, we overcome both limitations and propose a graph-based model that explores both clinical trials and the Pubmed databases to alleviate the shortage of relevant clinical trials for a query. We construct a large heterogeneous graph (750K nodes and 1.2 Million edges) made of clinical trials and Pubmed articles linked to clinical trials. As both the graph edges and nodes are labeled, we develop a novel metapath-based similarity search (MPSS) method to retrieve and rank clinical trials across multiple disease classes. We primarily focus on consumers and users that do not have any prior medical knowledge. As there are no multiple disease-wide trial search evaluation datasets, we contribute a high-quality, well-annotated query-relevant trial set comprising around 25 queries and, on average, approximately 95 annotated trials per query. We also perform a detailed evaluation of MPSS on the TREC Precision Medicine Benchmark Dataset, a disease-specific clinical trial search setting. We make all the codes and data publicly available at https://github.com/roysoumya/MPSS-clinical-trial-search.}
+  abstract={Clinical trials are an essential source of information for practicing Evidence-Based Medicine because they help to determine the efficacy of newly developed treatments and drugs. However, most of the existing trial search systems focus on a specific disease (e.g., cancer) and utilize disease-specific knowledge bases that hinder the adaptation of such methods to new diseases. In this work, we overcome both limitations and propose a graph-based model that explores both clinical trials and the Pubmed databases to alleviate the shortage of relevant clinical trials for a query. We construct a large heterogeneous graph (750K nodes and 1.2 Million edges) made of clinical trials and Pubmed articles linked to clinical trials. As both the graph edges and nodes are labeled, we develop a novel metapath-based similarity search (MPSS) method to retrieve and rank clinical trials across multiple disease classes. We primarily focus on consumers and users that do not have any prior medical knowledge. As there are no multiple disease-wide trial search evaluation datasets, we contribute a high-quality, well-annotated query-relevant trial set comprising around 25 queries and, on average, approximately 95 annotated trials per query. We also perform a detailed evaluation of MPSS on the TREC Precision Medicine Benchmark Dataset, a disease-specific clinical trial search setting. We make all the codes and data publicly available at https://github.com/roysoumya/MPSS-clinical-trial-search.},
+  code={https://github.com/roysoumya/MPSS-clinical-trial-search},
+  slides={https://github.com/roysoumya/datanalytics101-resources/blob/master/slides/ICDH%202023%20Clinical%20Trial%20Slides.pdf}
 }
 
 @inproceedings{10.1145/3459637.3482128,
@@ -51,7 +55,9 @@ keywords = {online health communities, clinical text classification},
 location = {Virtual Event, Queensland, Australia},
 series = {CIKM '21},
 selected={true},
-pdf={KnowledgeAwareCIKM2021.pdf}
+pdf={KnowledgeAwareCIKM2021.pdf},
+code={https://github.com/roysoumya/knowledge-aware-med-classification},
+slides={https://github.com/roysoumya/datanalytics101-resources/blob/master/slides/Final_Slides_CIKM2021_Nov2021.pdf}
 }
 
 @article{10.1145/3450445,
@@ -73,7 +79,9 @@ articleno = {9},
 numpages = {25},
 keywords = {text classification, sentence ranking, online reputation management, Brand personality},
 selected={true},
-pdf={BrandConsistencyTWEB.pdf}
+pdf={BrandConsistencyTWEB.pdf},
+code={https://github.com/roysoumya/brand-consistency-framework},
+slides={https://github.com/roysoumya/datanalytics101-resources/blob/master/slides/BrandConsistencyTWEB2021_MSThesisVersion.pdf}
 }
 
 @inproceedings{10.1145/3292522.3326048,
@@ -92,7 +100,9 @@ numpages = {9},
 keywords = {text classification, reputation management, brand personality, affective computing},
 location = {Boston, Massachusetts, USA},
 series = {WebSci '19},
-pdf={BrandConsistencyFullPaper.pdf}
+pdf={BrandConsistencyFullPaper.pdf},
+code={https://zenodo.org/record/3565079#.Xg38MsYzaCg},
+slides={https://github.com/roysoumya/datanalytics101-resources/blob/master/slides/BrandConsistencyWebSci2019Presentation.pdf}
 }
 
 @InProceedings{10.1007/978-3-030-34980-6_25,
@@ -112,7 +122,9 @@ pages="209--222",
 abstract="Clinical Trials are crucial for the practice of evidence-based medicine. It provides updated and essential health-related information for the patients. Sometimes, Clinical trials are the first source of information about new drugs and treatments. Different stakeholders, such as trial volunteers, trial investigators, and meta-analyses researchers often need to search for trials. In this paper, we propose an automated method to retrieve relevant trials based on the overlap of UMLS concepts between the user query and clinical trials. However, different stakeholders may have different information needs, and accordingly, we rank the retrieved clinical trials based on the following four aspects -- Relevancy, Adversity, Recency, and Popularity. We aim to develop a clinical trial search system which covers multiple disease classes, instead of only focusing on retrieval of oncology-based clinical trials. We follow a rigorous annotation scheme and create an annotated retrieval set for 25 queries, across five disease categories. Our proposed method performs better than the baseline model in almost {\$}{\$}90{\backslash}{\%}{\$}{\$} cases. We also measure the correlation between the different aspect-based ranking lists and observe a high negative Spearman rank's correlation coefficient between popularity and recency.",
 isbn="978-3-030-34980-6",
 pdf={2019-soumyadeep-CSONET.pdf},
-html={https://link.springer.com/chapter/10.1007/978-3-030-34980-6_25}
+html={https://link.springer.com/chapter/10.1007/978-3-030-34980-6_25},
+code={https://github.com/nikhil741/COCTR_multidimensional_ranking},
+slides={https://github.com/roysoumya/datanalytics101-resources/blob/master/slides/ClinicalTrials_CSoNet2019_final.pdf}
 }
 
 @Inbook{Roy2018,
@@ -134,5 +146,7 @@ abstract="Email is important for task and project management, information exchan
 isbn="978-981-13-2345-4",
 doi="10.1007/978-981-13-2345-4_6",
 html="https://doi.org/10.1007/978-981-13-2345-4_6",
-pdf="RoyEmailInteractivityCICBA2018.pdf"
+pdf="RoyEmailInteractivityCICBA2018.pdf",
+code="https://github.com/roysoumya/email-interactivity",
+slides="https://github.com/roysoumya/datanalytics101-resources/blob/master/slides/cicbappt_paper101.pdf"
 }
