@@ -1,5 +1,32 @@
 ---
 ---
+@inproceedings{baldeijcai2024,
+author = {Balde, Gunjan and Roy, Soumyadeep and Mondal, Mainack and Ganguly, Niloy},
+title = {MEDVOC: Vocabulary Adaptation for Fine-tuning Pre-trained Language Models on Medical Text Summarization},
+year = {2024},
+abstract = {This work presents a dynamic vocabulary adaptation strategy, MEDVOC, for fine-tuning pre-trained language models (PLMs) like BertSumAbs, BART, and PEGASUS for improved medical text summarization. In contrast to existing domain adaptation approaches in summarization, MEDVOC treats vocabulary as an optimizable parameter and optimizes the PLM vocabulary based on fragment score conditioned only on the downstream task's reference summaries. Unlike previous works on vocabulary adaptation (limited only to classification tasks), optimizing vocabulary based on summarization tasks requires an additional, extremely costly intermediate fine-tuning step on large summarization datasets. To that end, our novel fragment score-based hyperparameter search very significantly reduces this fine-tuning time—from 450 days to less than 2 days on average. Furthermore, while previous works on vocabulary adaptation are often primarily tied to single PLMs, MEDVOC is designed to be deployable across multiple PLMs (with varying model vocabulary sizes, pre-training objectives, and model sizes) -- bridging the limited vocabulary overlap between the biomedical literature domain and PLMs. MEDVOC outperforms baselines by 15.74% in terms of Rouge-L in zero-shot setting and shows gains of 17.28% in high Out-Of-Vocabulary (OOV) concentrations. Our human evaluation shows MEDVOC generates more faithful medical summaries (88% compared to 59% in baselines).},
+booktitle = {Proceedings of the 33rd International Joint Conference on Artificial Intelligence},
+numpages = {9},
+location = {Jeju, South Korea},
+series = {IJCAI '24},
+selected={true}
+}
+
+
+@inproceedings{roysigir2024,
+author = {Roy, Soumyadeep and Khatua, Aparup and Ghoochani, Fatemeh and Hadler, Uwe and Nejdl, Wolfgang and Ganguly, Niloy},
+title = {Beyond Accuracy: Investigating Error Types in GPT-4 Responses to USMLE Questions},
+year = {2024},
+abstract = {GPT-4 demonstrates high accuracy in medical QA tasks, leading with an accuracy of 86.70%, followed by Med-PaLM 2 at 86.50%. However, around 14% of errors remain. Additionally, current works use GPT-4 to only predict the correct option without providing any explanation and thus do not provide any insight into the thinking process and reasoning used by GPT-4 or other LLMs. Therefore, we introduce a new domain-specific error taxonomy derived from collaboration with medical students. Our GPT-4 USMLE Error (G4UE) dataset comprises 4153 GPT-4 correct responses and 919 incorrect responses to the United States Medical Licensing Examination (USMLE) respectively. These responses are quite long (258 words on average), containing detailed explanations from GPT-4 justifying the selected option. We then launch a large-scale annotation study using the Potato annotation platform and recruit 44 medical experts through Prolific, a well-known crowdsourcing platform. We annotated 300 out of these 919 incorrect data points at a granular level for different classes and created a multi-label span to identify the reasons behind the error. In our annotated dataset, a substantial portion of GPT-4's incorrect responses is categorized as a "Reasonable response by GPT-4," by annotators. This sheds light on the challenge of discerning explanations that may lead to incorrect options, even among trained medical professionals. We also provide medical concepts and medical semantic predications extracted using the SemRep tool for every data point. We believe that it will aid in evaluating the ability of LLMs to answer complex medical questions. We make the resources available at https://github.com/roysoumya/usmle-gpt4-error-taxonomy .},
+booktitle = {Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+numpages = {10},
+keywords = {USMLE Error Taxonomy, Medical QA, GPT-4, Multi-label Dataset},
+location = {Washington D.C., USA},
+series = {SIGIR '24},
+selected={true},
+pdf={arxiv_version_gpt4_usmle_SIGIR_2024.pdf},
+code={https://github.com/roysoumya/usmle-gpt4-error-taxonomy}
+}
 
 @inproceedings{Roy2023,
   title = {GENEMASK: Fast Pretraining of Gene Sequences to Enable Few-Shot Learning},
