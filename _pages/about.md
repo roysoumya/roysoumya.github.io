@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://roysoumya.github.io/assets/pdf/Soumyadeep_Research_CV_May2024.pdf'>Curriculum Vitae</a>
+subtitle: <a href='https://roysoumya.github.io/assets/pdf/researchcv.pdf'>Curriculum Vitae</a>
 
 profile:
   align: right
@@ -13,7 +13,7 @@ profile:
     <p>Complex Networks Research Lab, Dept. of CSE,</p>
     <p>Indian Institute of Technology Kharagpur,</p>
     <p>West Bengal, India - 721302</p>
-    <a href='https://roysoumya.github.io/assets/pdf/Soumyadeep_Research_CV_May2024.pdf'>Curriculum Vitae</a>
+    <a href='https://roysoumya.github.io/assets/pdf/researchcv.pdf'>Curriculum Vitae</a>
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
