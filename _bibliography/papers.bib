@@ -1,5 +1,20 @@
 ---
 ---
+@inproceedings{baldeemnlp2024,
+author = {Balde, Gunjan and Roy, Soumyadeep and Mondal, Mainack and Ganguly, Niloy},
+title = {Adaptive BPE Tokenization for Enhanced Vocabulary Adaptation in Finetuning Pretrained Language Models},
+year = {2024},
+abstract = {In this work, we show a fundamental limitation in vocabulary adaptation approaches that use Byte-Pair Encoding (BPE) tokenization scheme for fine-tuning pretrained language models (PLMs) to expert domains. Current approaches trivially append the target domain-specific vocabulary at the end of the PLM vocabulary. This approach leads to a lower priority score and causes sub-optimal tokenization in BPE that iteratively uses merge rules to tokenize a given text. To mitigate this issue, we propose AdaptBPE where the BPE tokenization initialization phase is modified to first perform the longest string matching on the added (target) vocabulary before tokenizing at the character level. We perform an extensive evaluation of AdaptBPE versus the standard BPE over various classification and summarization tasks; AdaptBPE improves by 3.57% (in terms of accuracy) and 1.87% (in terms of Rouge-L), respectively. AdaptBPE for MEDVOC works particularly well when reference summaries have high OOV concentration or are longer in length. We also conduct a human evaluation, revealing that AdaptBPE generates more relevant and more faithful summaries as compared to MEDVOC.},
+booktitle = {Findings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+numpages = {11},
+location = {Miami, Florida},
+series = {EMNLP '24 Findings},
+selected={true},
+pdf={arxiv_version_gpt4_usmle_SIGIR_2024.pdf},
+code={https://github.com/roysoumya/usmle-gpt4-error-taxonomy}
+}
+
+
 @inproceedings{royecai2024,
 author = {Roy, Soumyadeep and Sural, Shamik and Ganguly, Niloy},
 title = {Unlocking Efficiency: Adaptive Masking for Gene Transformer Models},
@@ -9,7 +24,9 @@ booktitle = {Proceedings of the 27th European Conference on Artificial Intellige
 numpages = {8},
 location = {Santiago de Compostela, Spain},
 series = {ECAI '24},
-selected={true}
+selected={true},
+pdf={adaptBPE_emnlp2024.pdf},
+code={https://github.com/gb-kgp/adaptbpe}
 }
 
 @inproceedings{baldeijcai2024,
@@ -21,7 +38,10 @@ booktitle = {Proceedings of the 33rd International Joint Conference on Artificia
 numpages = {9},
 location = {Jeju, South Korea},
 series = {IJCAI '24},
-selected={true}
+doi={https://doi.org/10.24963/ijcai.2024/683},
+selected={true},
+pdf={Medvoc_IJCAI2024.pdf},
+code={https://github.com/gb-kgp/MEDVOC}
 }
 
 
@@ -36,6 +56,7 @@ keywords = {USMLE Error Taxonomy, Medical QA, GPT-4, Multi-label Dataset},
 location = {Washington D.C., USA},
 series = {SIGIR '24},
 selected={true},
+doi= {https://doi.org/10.1145/3626772.3657882},
 pdf={arxiv_version_gpt4_usmle_SIGIR_2024.pdf},
 code={https://github.com/roysoumya/usmle-gpt4-error-taxonomy}
 }
