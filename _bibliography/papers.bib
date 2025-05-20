@@ -1,5 +1,15 @@
 ---
 ---
+@inproceedings{baldeacl2025,
+author = {Balde, Gunjan and Roy, Soumyadeep and Mondal, Mainack and Ganguly, Niloy},
+title = {Evaluation of LLMs in Medical Text Summarization: The Role of Vocabulary Adaptation in High OOV Settings},
+year = {2025},
+abstract = {Large Language Models (LLMs) recently achieved great success in medical text summarization tasks by simply using in-context learning. However, these studies do not perform fine-grained evaluations under difficult settings where LLMs might fail. They typically report performance scores over the entire dataset. Through our benchmarking study, we show that LLMs show a significant performance drop for data points with high concentration of out-of-vocabulary (OOV) words or with high novelty (23.40% and 28.73% drop for Llama-2 and Llama-3.1 respectively). Vocabulary adaptation is an intuitive solution to this vocabulary mismatch issue where the LLM vocabulary gets updated with certain expert domain (here, medical) words. An interesting finding from our study is that Llama-3.1, even with a vocabulary size of around 128K tokens, still faces the over-fragmentation issue with medical words. We show vocabulary adaptation helps improve the LLM summarization performance. Through extensive experimentation of multiple vocabulary adaptation strategies, two continual pretraining strategies, and three benchmark medical summarization datasets, we gain valuable insights into the role of vocabulary adaptation strategies for customizing LLMs to the medical domain. We also performed a human evaluation study with medical experts where they found that vocabulary adaptation results in more relevant and faithful summaries.},
+booktitle = {Findings of the 63rd Annual Meeting of the Association for Computational Linguistics},
+location = {Vienna, Austria},
+series = {ACL '25 Findings},
+selected={true}}
+
 @inproceedings{steinerwsdm2025,
 author = {Steiner, Nicolas and Li, Ziteng and Vosoughi, Omid and Schrader, Johanna and Roy, Soumyadeep and Nejdl, Wolfgang and Tang, Ming},
 title = {A Systematic Evaluation of Single-Cell Foundation Models on Cell-Type Classification Task},
@@ -9,7 +19,9 @@ booktitle = {The 18th ACM International Conference on Web Search and Data Mining
 numpages = {2},
 location = {Hannover, Germany},
 series = {WSDM '25 WSDM Day},
-selected={true}
+selected={true},
+html = {https://doi.org/10.1145/3701551.3708811},
+pdf={nicolas-wsdm-day2025.pdf}
 }
 
 
@@ -22,7 +34,9 @@ booktitle = {The 18th ACM International Conference on Web Search and Data Mining
 numpages = {4},
 location = {Hannover, Germany},
 series = {WSDM '25 Tutorial},
-selected={true}
+html = {https://doi.org/10.1145/3701551.3703477},
+selected={true},
+pdf={trustworthy-ai-for-medicine-wsdm2025.pdf}
 }
 
 

@@ -21,7 +21,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an Institute Ph.D. Research Fellow in the Department of Computer Science and Engineering at IIT Kharagpur, supervised by [Prof. Niloy Ganguly](http://www.facweb.iitkgp.ac.in/~niloy/) and [Prof. Shamik Sural](http://www.facweb.iitkgp.ac.in/~shamik/). I submitted my Ph.D thesis titled "Domain Adaptation for Medical Language Understanding" on October 2024. 
+I successfully defended my Ph.D on May 2025 in the Department of Computer Science and Engineering at IIT Kharagpur, supervised by [Prof. Niloy Ganguly](http://www.facweb.iitkgp.ac.in/~niloy/) and [Prof. Shamik Sural](http://www.facweb.iitkgp.ac.in/~shamik/). My Ph.D thesis title was "Domain Adaptation for Medical Language Understanding". 
 
 Currently, I am doing a research internship at the Health Innovation and Technology Centre of GE Healthcare India. I am looking for research scientist and postdoc positions in Foundation Models and Generative AI for medicine.
 
