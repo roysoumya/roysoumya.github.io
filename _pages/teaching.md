@@ -1,13 +1,13 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: I first provide the list of courses where I played the role of a Teaching Assistant at IIT Kharagpur, India and Leibniz University Hannover, Germany. Next, I describe my mentorship experience over 1 B.Tech and 3 M.Tech Thesis at IIT Kharagpur. I also covered one invited talk and few tutorials.
 nav: true
 nav_order: 6
 ---
 
-# Teaching
+# Coursework
 
 ### IIT Kharagpur
 
@@ -18,8 +18,6 @@ nav_order: 6
 * Information Retrieval (Autumn 2020)
 
 * Computing Lab - 1 (Autumn 2023)
-
-* Tutorial on "How to write a research paper?" (7 classes )
 
 ### Leibniz University Hannover, Germany
 

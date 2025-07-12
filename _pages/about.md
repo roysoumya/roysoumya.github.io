@@ -13,7 +13,7 @@ profile:
     <p>Complex Networks Research Lab, Dept. of CSE,</p>
     <p>Indian Institute of Technology Kharagpur,</p>
     <p>West Bengal, India - 721302</p>
-    <a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Curriculum Vitae</a>
+    <a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Curriculum Vitae</a> | 
     <a href='https://datanalytics101.com'>Research Blog</a>
 
 news: true # includes a list of news items
