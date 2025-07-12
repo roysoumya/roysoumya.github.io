@@ -26,7 +26,9 @@ nav_order: 6
 
 ### Kalyani Government Engineering College, West Bengal, India
 
-* Programming with C and Datastructures and Algorithms - I performed the role of CodeChef Campus Chapter Representative of Kalyani Government Engineering College from 2015 to 2017, and co-founded the college programming club, KeyGEnCoders in March 2015.
+* Co-founded the college programming club, [KeyGEnCoders](https://kgec-coding.github.io/KeyGEnCoders/) in March 2015, which is still actively running.
+* Programming with C and Datastructures and Algorithms - I performed the role of CodeChef Campus Chapter Representative of Kalyani Government Engineering College from 2015 to 2017
+
 
 # Mentoring 
 
