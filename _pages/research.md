@@ -3,7 +3,7 @@ layout: page
 title: Research
 permalink: /research/
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 ### Theme 1: Benchmarking and Fine-grained Domain-specific Evaluation of Foundation Models [SIGIR 2024, ECAI 2025]

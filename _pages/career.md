@@ -3,7 +3,7 @@ layout: page
 title: Career
 permalink: /career/
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 After submitting my Ph.D thesis, I joined as a Ph.D intern at the Health Innovation and Technology Centre of GE Healthcare (Bangalore, India) where I developed generative AI-based patient data models of oncology patients using cutting-edge technologies like vector databases and Langchain, to help clinicians easily navigate patient notes. 

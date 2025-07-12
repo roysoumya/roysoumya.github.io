@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: <a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Curriculum Vitae</a>
+subtitle: <a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Curriculum Vitae</a> |  <a href='https://datanalytics101.com'>Research Blog</a>
 
 profile:
   align: right
@@ -14,6 +14,7 @@ profile:
     <p>Indian Institute of Technology Kharagpur,</p>
     <p>West Bengal, India - 721302</p>
     <a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Curriculum Vitae</a>
+    <a href='https://datanalytics101.com'>Research Blog</a>
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts

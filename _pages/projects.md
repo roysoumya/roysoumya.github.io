@@ -3,8 +3,8 @@ layout: page
 title: Projects
 permalink: /projects/
 description: Description of research projects that I have worked or currently working on.
-nav: true
-nav_order: 3
+nav: false
+nav_order: 5
 display_categories: [work]
 horizontal: false
 ---

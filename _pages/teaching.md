@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: I first provide the list of courses where I played the role of a Teaching Assistant at IIT Kharagpur, India and Leibniz University Hannover, Germany. Next, I describe my mentorship experience over 1 B.Tech and 3 M.Tech Thesis at IIT Kharagpur.
+description: I first provide the list of courses where I played the role of a Teaching Assistant at IIT Kharagpur, India and Leibniz University Hannover, Germany. Next, I describe my mentorship experience over 1 B.Tech and 3 M.Tech Thesis at IIT Kharagpur. I also covered one invited talk and few tutorials.
 nav: true
 nav_order: 6
 ---
@@ -19,6 +19,8 @@ nav_order: 6
 
 * Computing Lab - 1 (Autumn 2023)
 
+* Tutorial on "How to write a research paper?" (7 classes )
+
 ### Leibniz University Hannover, Germany
 
 * Natural Language Processing (Winter 2021)
@@ -27,7 +29,14 @@ nav_order: 6
 ### Kalyani Government Engineering College, West Bengal, India
 
 * Co-founded the college programming club, [KeyGEnCoders](https://kgec-coding.github.io/KeyGEnCoders/) in March 2015, which is still actively running.
-* Programming with C and Datastructures and Algorithms - I performed the role of CodeChef Campus Chapter Representative of Kalyani Government Engineering College from 2015 to 2017
+* Programming with C and Datastructures and Algorithms - Performed the role of CodeChef Campus Chapter Representative of Kalyani Government Engineering College from 2015 to 2017
+
+# Tutorials/Invited Talks
+
+* "Building Trustworthy AI Models for Medicine: From Theory to Applications" ([tutorial website](https://sites.google.com/view/trustworthy-medical-ai/)) - Delivered at the 18th ACM International Conference on Web Search and Data Mining ([WSDM 2025](https://www.wsdm-conference.org/2025/tutorials/)), a top-tier Al conference held at Germany in March 2025.  
+* "Foundation Models for Medical Text" - Delivered an invited talk on on December 19, 2024, as part of
+the course "AI Foundation Models in Biomedicine" of Leibniz University Hannover, Germany
+* "Research Paper Writing" - Conducted at IIT Kharagpur from May to June 2024 (7 lectures)
 
 
 # Mentoring 
