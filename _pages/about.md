@@ -6,7 +6,7 @@ subtitle: <a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Curriculum
 
 profile:
   align: right
-  image: profile-photo.png
+  image: profile-photo-suit.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p> Address: </p>
