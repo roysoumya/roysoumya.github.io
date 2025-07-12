@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Successfully defend my PhD Thesis "Domain Adaptation for Medical Language Understanding" on May 5, 2025
+Successfully defended my PhD Thesis "Domain Adaptation for Medical Language Understanding" on May 5, 2025
