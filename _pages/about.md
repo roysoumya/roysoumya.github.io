@@ -22,7 +22,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an incoming postdoctoral scholar of the Department of Biomedical Informatics, Stanford University. 
+I am an incoming postdoctoral scholar at the [Center for Biomedical Informatics Research](https://bmir.stanford.edu/) of Stanford University. 
 
 My primary area of research is natural language processing, with expertise in medical and healthcare applications. My research areas of interest are Foundation Models for Medicine, Generative AI, Text Summarization, and Efficient Pretraining. 
 
