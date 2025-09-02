@@ -6,13 +6,13 @@ subtitle: <a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Curriculum
 
 profile:
   align: right
-  image: profile-square-suit.jpg
+  image: profile-pic-stanford.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p> Address: </p>
-    <p>Complex Networks Research Lab, Dept. of CSE,</p>
-    <p>Indian Institute of Technology Kharagpur,</p>
-    <p>West Bengal, India - 721302</p>
+    <p>Center for Biomedical Informatics Research,</p>
+    <p>Stanford University,</p>
+    <p>California, United States</p>
     <a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Curriculum Vitae</a> | 
     <a href='https://datanalytics101.com'>Research Blog</a>
 
