@@ -10,7 +10,8 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p> Address: </p>
-    <p>Center for Biomedical Informatics Research,</p>
+    <p>Division of Computational Medicine,</p>
+    <p>Dept. of Medicine,</p>
     <p>Stanford University,</p>
     <p>California, United States</p>
     <a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Curriculum Vitae</a> | 
@@ -22,7 +23,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an incoming postdoctoral scholar at the [Center for Biomedical Informatics Research](https://bmir.stanford.edu/) of Stanford University. 
+I am a postdoctoral scholar working with [Prof. Tina Hernandez-Boussard](https://profiles.stanford.edu/tina-hernandez-boussard) at the [Division of Computational Medicine](https://computationalmedicine.stanford.edu/) under the Department of Medicine of Stanford University. My project aims to understand the deviations in real-world patient trajectories from the established clinical guidelines - does it lead to better patient outcomes or avoidable harm.
 
 My primary area of research is natural language processing, with expertise in medical and healthcare applications. My research areas of interest are Foundation Models for Medicine, Generative AI, Text Summarization, and Efficient Pretraining. 
 
