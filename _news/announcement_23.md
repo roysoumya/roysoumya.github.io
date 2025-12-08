@@ -5,4 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Our Parkinson Disease Subtyping paper with L3S Research Center Germany and Hannover Medical School got published at the Frontiers in AI Journal under Section Medicine and Public Health [https://doi.org/10.3389/frai.2025.1668206](https://doi.org/10.3389/frai.2025.1668206)
+Our Parkinson Disease Subtyping paper with L3S Research Center Germany and Hannover Medical School got published at the Frontiers in AI Journal under Section Medicine and Public Health [https://doi.org/10.3389/frai.2025.1668206](https://doi.org/10.3389/frai.2025.1668206).
+[Link to slides](https://docs.google.com/presentation/d/1fRYZOu2HygoRk3e4ItKvWc9BkOTnf24mRf1v4Ee_WKQ/edit?usp=sharing)

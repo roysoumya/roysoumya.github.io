@@ -23,7 +23,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a postdoctoral scholar working with [Prof. Tina Hernandez-Boussard](https://profiles.stanford.edu/tina-hernandez-boussard) at the [Division of Computational Medicine](https://computationalmedicine.stanford.edu/) under the Department of Medicine of Stanford University. My project aims to understand the deviations in real-world patient trajectories from the established clinical guidelines - does it lead to better patient outcomes or avoidable harm.
+I am a postdoctoral scholar working with [Prof. Tina Hernandez-Boussard](https://profiles.stanford.edu/tina-hernandez-boussard) at the [Division of Computational Medicine](https://computationalmedicine.stanford.edu/) under the Department of Medicine of Stanford University. My project aims to understand the deviations in real-world patient trajectories from the established clinical guidelines, at scale with the help of large language models - does it lead to better patient outcomes or avoidable harm.
 
 My primary area of research is natural language processing, with expertise in medical and healthcare applications. My research areas of interest are Foundation Models for Medicine, Generative AI, Text Summarization, and Efficient Pretraining. 
 
