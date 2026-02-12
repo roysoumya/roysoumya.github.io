@@ -9,12 +9,9 @@ profile:
   image: profile-pic-stanford.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p> Address: </p>
-    <p>Division of Computational Medicine,</p>
     <p>Dept. of Medicine,</p>
     <p>Stanford University,</p>
-    <p>California, United States</p>
-    <a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Curriculum Vitae</a> | 
+    <a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Resume</a> | 
     <a href='https://datanalytics101.com'>Research Blog</a>
 
 news: true # includes a list of news items
