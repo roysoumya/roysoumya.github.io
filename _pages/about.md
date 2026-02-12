@@ -22,15 +22,10 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+Postdoctoral Researcher specializing in natural language processing and foundation models for healthcare applications. Expertise in developing and evaluating medical AI systems with focus on reliability, efficiency and interpretability. Published 15+ peer-reviewed papers in top-tier venues (SIGIR, ACL, IJCAI, EMNLP, ECAI, CIKM) on medical language understanding, efficient model training and clinical NLP applications.
 
-I am a postdoctoral scholar working with [Prof. Tina Hernandez-Boussard](https://profiles.stanford.edu/tina-hernandez-boussard) at the [Division of Computational Medicine](https://computationalmedicine.stanford.edu/) under the Department of Medicine of Stanford University. My project aims to understand the deviations in real-world patient trajectories from the established clinical guidelines, at scale with the help of large language models - does it lead to better patient outcomes or avoidable harm.
+I am a postdoctoral scholar working with [Prof. Tina Hernandez-Boussard](https://profiles.stanford.edu/tina-hernandez-boussard) at the [Division of Computational Medicine](https://computationalmedicine.stanford.edu/) under the Department of Medicine of Stanford University. My project aims to develop auditable and reliable reasoning LLMs for clinical tasks in order to derive better real-world patient outcomes. We use clinical guidelines as an evidence base and focus on the clinical domains of pain management and perioperative care.
 
-My primary area of research is natural language processing, with expertise in medical and healthcare applications. My research areas of interest are Foundation Models for Medicine, Generative AI, Text Summarization, and Efficient Pretraining. 
-
-I hold a PhD in Computer Science and Engineering from the Indian Institute of Technology Kharagpur, where I worked with  [Prof. Niloy Ganguly](http://www.facweb.iitkgp.ac.in/~niloy/) and [Prof. Shamik Sural](http://www.facweb.iitkgp.ac.in/~shamik/). Here, I was part of the [Complex Networks Research Group (CNeRG)](https://cnerg-iitkgp.github.io/). 
-
-My PhD thesis is titled "Domain Adaptation for Medical Language Understanding", where I developed novel domain adaptation techniques to effectively and efficiently adapt open-domain AI models to the medical domain. 
-
-Please go through my [CV](https://roysoumya.github.io/assets/pdf/own_cv.pdf) for further details.
+Please go through my [resume](https://roysoumya.github.io/assets/pdf/own_cv.pdf) for further details.
 
 
