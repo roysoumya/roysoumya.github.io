@@ -2,15 +2,14 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Curriculum Vitae</a> |  <a href='https://datanalytics101.com'>Research Blog</a>
+subtitle: Postdoc at Stanford Medicine
+#<a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Curriculum Vitae</a> |  <a href='https://datanalytics101.com'>Research Blog</a>
 
 profile:
   align: right
   image: headshot.jpeg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Dept. of Medicine,</p>
-    <p>Stanford University,</p>
     <a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Resume</a> | 
     <a href='https://datanalytics101.com'>Research Blog</a>
 
