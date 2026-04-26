@@ -5,46 +5,69 @@ permalink: /research/
 nav: true
 nav_order: 3
 ---
-## Research Areas of Interest
+# Research Areas of Interest
 
-### Theme 1: Development of Reliable Medical AI
+I work on **deployable medical language models** — making them efficient enough to run in real clinical workflows, reliable enough for clinical decision-making, and auditable against established medical guidelines.
 
-**Vocabulary Adaptation for Fine-tuning Pre-trained Language Models for Classification and Summarisation Tasks [IJCAI 2024, EMNLP 2024 Findings, ACL 2025 Findings]**
+My research program is organized around three connected threads. **Efficient pretraining and adaptation** addresses the cost of building and customizing medical foundation models. **Reliability evaluation** asks whether these models actually work when deployed, through fine-grained error analysis and benchmarking. **Guideline-grounded clinical reasoning**, my current focus at Stanford, develops auditable reasoning systems that ground LLM outputs in established clinical evidence. Together, these threads target the gap between research-grade medical AI and systems that hospitals can actually adopt.
 
-Our [IJCAI 2024 paper](https://doi.org/10.24963/ijcai.2024/683) is the first work to use vocabulary adaptation for summarization tasks. Since the hyperparameter tuning step involves an intermediate fine-tuning step on 300K documents, we showed that optimizing fragment score closely approximates the downstream task performance; this reduced the fine-tuning time from 450 days to 45 hours. 
+## Thread 1: Efficient Pretraining and Adaptation of Medical Foundation Models
 
-Although the original model vocabulary gets updated by adding target domain vocabulary, the standard Byte-Pair Encoding tokenization ignores the extension vocabulary. We modify the BPE initialization step. After splitting at the character level, we perform the longest substring matching with the extension vocabulary, and merge any matches [[EMNLP 2024](https://aclanthology.org/2024.findings-emnlp.863.pdf)]. 
+**Vocabulary Adaptation for Medical Language Models** [IJCAI 2024, EMNLP 2024 Findings, ACL 2025 Findings]
 
-In our [ACL 2025 paper](https://arxiv.org/abs/2505.21242), we observed a breakthrough result - vocabulary adaptation is required even for LLMs (Llama 2, Mistral, Qwen-2), even for Llama-3.1 8B with 128K vocabulary size for medical text summarization. Through extensive benchmarking of multiple vocabulary adaptation strategies, two continual pretraining strategies, and three benchmark medical summarization datasets, we gain valuable insights into the role of vocabulary adaptation strategies for customizing LLMs to the medical domain.
+Adapting general-purpose language models to medical text is a recurring bottleneck for clinical deployment. Our [IJCAI 2024 paper](https://doi.org/10.24963/ijcai.2024/683) is the first work to use vocabulary adaptation for summarization tasks. By showing that fragment score optimization closely approximates downstream performance, we reduced fine-tuning time from 450 days to 45 hours, making the method practical for real adaptation pipelines.
 
-### Theme 2: Development of Verifiable and Transparent Medical AI
+Standard Byte-Pair Encoding tokenization ignores extension vocabulary even when the model vocabulary has been updated. We modified the BPE initialization step: after splitting at the character level, we perform longest substring matching with the extension vocabulary and merge any matches [[EMNLP 2024 Findings](https://aclanthology.org/2024.findings-emnlp.863.pdf)].
 
-**Benchmarking and Fine-grained Domain-specific Evaluation of Foundation Models [SIGIR 2024, ECAI 2025, WSDM 2025]**
+Our [ACL 2025 Findings paper](https://arxiv.org/abs/2505.21242) extended this line to large language models. We found that vocabulary adaptation remains necessary even for Llama 2, Mistral, Qwen-2, and Llama-3.1 8B with its 128K vocabulary, for medical text summarization. Through extensive benchmarking across multiple adaptation strategies, two continual pretraining approaches, and three medical summarization datasets, we mapped the conditions under which vocabulary adaptation pays off when customizing LLMs for clinical text.
 
-In our [ECAI 2025](https://ebooks.iospress.nl/doi/10.3233/FAIA251359), we are the first work to identify doctor intents from medical dialogues and develop fine-grained intent taxonomy based on the popular SOAP framework. We annotated the ACI-Bench dataset, a popular medical dialogue summarisation dataset, with our proposed intent taxonomy, using real doctors, crowd-sourced from Prolific. We learn novel patterns of dialogue trajectories within doctor-patient dialogues. We benchmarked popular encoder models and LLMs on intent classification and next intent prediction tasks. Finally, we found that intent filtering helps to improve downstream tasks of medical dialogue summarisation.
+**Efficient Pretraining of Biological Foundation Models** [ECAI 2023, ECAI 2024]
 
-In our [SIGIR 2024 Resource paper](https://doi.org/10.1145/3626772.3657882), we point out evaluating LLMs based on accuracy is incomplete without understanding the thinking process and reasoning used by GPT-4 or other LLMs. We ask GPT-4 to explain its prediction and why it reject the other options. These responses are quite long (258 words on average), containing detailed medical explanations. We observe that GPT-4 rarely makes any factual errors and mostly makes reasoning errors like "Sticking with the Wrong Diagnosis". The model rationales for the incorrect predictions by GPT-4 were found to be correct by the medical experts, highlighting a major concern. We develop an error taxonomy to evaluate model explanations or rationales in collaboration with medical students. We then launch a large-scale annotation study using the Potato annotation platform and recruit 44 medical experts through Prolific, a well-known crowdsourcing platform. We annotated 300 out of these 919 incorrect data points at a granular level for different classes and created a multi-label span to identify the reasons behind the error. We make these resources (GPT-4 rationales along with expert annotations) publicly available.
+DNA foundation models such as Nucleotide Transformer, DNABERT, and LOGO are pretrained on the Human Reference Genome and are computationally expensive. The word- and sentence-level semantics that NLP relies on are absent in DNA sequences, so masked language modeling needs different design. In our [ECAI 2023 work](https://ebooks.iospress.nl/doi/10.3233/FAIA230492), we proposed a pointwise mutual information-based masking scheme (GeneMask) that jointly masks correlated tokens, achieving improved few-shot performance using just 10% of the standard pretraining steps.
 
-We performed a systematic evaluation of single-cell foundation models such as scFoundation, GeneFormer and scGPT on cell-type annotation tasks [[WSDM Day 2025](https://doi.org/10.1145/3701551.3708811)].
+In our [ECAI 2024 paper](https://ebooks.iospress.nl/doi/10.3233/FAIA240864), we developed a curriculum masking-based dynamic MLM technique that outperforms DNABERT-2 and Nucleotide Transformer on the Genome Understanding Evaluation benchmark, in both few-shot and full-dataset settings.
+
+## Thread 2: Reliability Evaluation of Clinical Language Models
+
+**Fine-grained Error Analysis of Medical LLMs** [SIGIR 2024]
+
+Evaluating LLMs on medical tasks by accuracy alone misses the crucial question of *why* models fail. In our [SIGIR 2024 Resource paper](https://doi.org/10.1145/3626772.3657882), we asked GPT-4 to explain its predictions and reject other options on USMLE questions, generating long, detailed medical rationales (258 words on average). We found that GPT-4 rarely makes factual errors but frequently makes reasoning errors such as "sticking with the wrong diagnosis." Strikingly, the model's rationales for incorrect predictions were often judged correct by medical experts — a serious concern for clinical deployment.
+
+We developed an error taxonomy in collaboration with medical students, then ran a large-scale annotation study using the Potato platform with 44 medical experts recruited through Prolific. We annotated 300 incorrect data points at a granular level with multi-label spans identifying error causes, and released the GPT-4 rationales and expert annotations as a public resource for the medical AI evaluation community.
+
+**Doctor Intent Classification from Clinical Dialogues** [ECAI 2025]
+
+Our [ECAI 2025 work](https://ebooks.iospress.nl/doi/10.3233/FAIA251359) is the first to identify physician intents in medical dialogues and develop a fine-grained intent taxonomy based on the SOAP framework. We annotated the ACI-Bench dialogue summarization dataset with our intent taxonomy using practicing doctors recruited via Prolific, then characterized novel patterns in doctor-patient dialogue trajectories. We benchmarked encoder models and LLMs on intent classification and next-intent prediction, and showed that intent filtering improves downstream medical dialogue summarization.
+
+**Benchmarking Single-Cell Foundation Models** [WSDM Day 2025]
+
+We performed a systematic evaluation of single-cell foundation models — scFoundation, GeneFormer, and scGPT — on cell-type annotation tasks, identifying conditions where these models help and where they break down [[WSDM Day 2025](https://doi.org/10.1145/3701551.3708811)].
+
+**Long-tail Robustness of LLMs and RAG** [LREC 2026]
+
+Our forthcoming LREC 2026 paper, *LongTailQA: Benchmarking LLMs and RAG Models on Disambiguated Long-Tail Entities*, evaluates how language models and retrieval-augmented systems perform on rare entities — a year-long collaboration with PhD students at L3S Research Center, Germany.
+
+## Thread 3: Guideline-Grounded Clinical Reasoning *(current focus, Stanford Medicine)*
+
+At Stanford, I am developing auditable reasoning LLMs that ground clinical recommendations in established medical guidelines, working with [Prof. Tina Hernandez-Boussard](https://profiles.stanford.edu/tina-hernandez-boussard) at the Division of Computational Medicine. The core question: *when do real-world patient trajectories deviate from clinical guidelines, and when does that deviation lead to better or worse outcomes?* Application areas include pain management and perioperative care.
+
+This work integrates the methods from Threads 1 and 2 — efficient adaptation to make models deployable, and rigorous evaluation to make them trustworthy — with the missing piece needed for clinical deployment: explicit grounding in the evidence base that hospitals already use.
 
 **Transparent Patient Subtyping of Parkinson's Disease**
-We developed a novel, interpretable decision-tree-based method to identify six clinically meaningful Parkinson Disease (PD) subtypes — validated across two independent cohorts (LRRK2 and MDS). Unlike traditional clustering approaches, our model offers robust reproducibility and clear diagnostic rules. Our key findings are: (i) Subtypes are defined by features like persistent asymmetry, long disease duration (≥10 years), and postural instability. (ii) Early onset subtype (E4) shows favorable prognosis. (iii) Mixed onset subtypes (M3, M7) are linked to faster decline — highlighting the need for proactive care. (iv) Late onset subtypes (L2, L4) correlate with reduced quality of life and higher care dependency, while L1 appears more benign. These insights could pave the way for more personalized therapeutic strategies and better prognostic guidance in PD care.
 
-### Theme 3: Development of Efficient Medical AI
+Earlier work in this thread developed a novel, interpretable decision-tree-based method to identify six clinically meaningful Parkinson's Disease subtypes, validated across two independent cohorts (LRRK2 and MDS). Unlike clustering approaches, the model offers reproducible, transparent diagnostic rules. Key findings: subtypes are characterized by persistent asymmetry, long disease duration (≥10 years), and postural instability; early-onset subtype E4 shows favorable prognosis; mixed-onset subtypes M3 and M7 link to faster decline; late-onset subtypes L2 and L4 correlate with reduced quality of life. These results support more personalized therapeutic strategies and better prognostic guidance in PD care. Published in Frontiers in Artificial Intelligence (2025), in collaboration with Hannover Medical School and L3S Research Center.
 
-**Training Biological Foundation Models [ECAI 2023, ECAI 2024]**
+## Applied and Translational Work
 
-DNA foundation models such as Nucleotide Transformer, DNABert, and LOGO, are pretrained on the Human Reference Genome and are computationally expensive. Word and sentence-level semantics of NLP are absent for DNA sequences. In our [ECAI 2023 work](https://ebooks.iospress.nl/doi/10.3233/FAIA230492), we proposed a novel Masked Language Modeling masking scheme that improved the few-shot performance while using just 10% of the total pretraining steps. 
+**AuriCare: Holistic Pain Management** [Boston GrandHack 2026] — Co-developed at MIT Hacking Medicine's Boston GrandHack 2026, applying clinical decision support principles to chronic pain workflows.
 
-In our [ECAI 2024 paper](https://ebooks.iospress.nl/doi/10.3233/FAIA240864), we develop a curriculum masking-based dynamic MLM masking technique to outperform DNABERT-2 and Nucleotide Transformer for both few-shot and full dataset settings on the Genome Understanding Evaluation benchmark. 
+**Patent filing (2025)** — Co-inventor on a deep learning-based representation learning system for sensor log data from medical imaging equipment, enabling anomaly detection and predictive maintenance (Wipro GE Healthcare).
 
-### Theme 4: Incorporating Medical Domain Knowledge into NLP Models [CIKM 2021, ICDH 2023]
+## Foundational Work
 
-**Medical Forum Question Classification and Clinical Trial Search**
+**Medical Domain Knowledge in NLP Models** [CIKM 2021, ICDH 2023]
 
-I developed a disease-independent clinical trial search system and improved retrieval performance by incorporating the Pubmed citation network, to address the sparsity issue of clinical trial graph network [[ICDH 2023](https://ieeexplore.ieee.org/document/10224716/)]. 
-
-I developed a dual-encoder BERT model where the additional encoder focused on the medical concept-bearing words extracted using QuickUMLS [[CIKM 2021](https://doi.org/10.1145/3459637.3482128)].
+Earlier PhD work that motivated the current research program. I built a knowledge-aware dual-encoder BERT model where an additional encoder focuses on medical concept-bearing words extracted using QuickUMLS, for medical forum question classification [[CIKM 2021](https://doi.org/10.1145/3459637.3482128)]. I also developed an interpretable, disease-independent clinical trial search system that addresses the sparsity of clinical trial graphs by incorporating the PubMed citation network for metapath-based similarity search [[ICDH 2023](https://ieeexplore.ieee.org/document/10224716/), Best Student Paper Candidate].
 
 ## Research Projects
 

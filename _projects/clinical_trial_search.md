@@ -3,7 +3,7 @@ layout: page
 title: Clinical trial search
 description: Developing an aspect-based clinical trial search and an interpretable system using the Pubmed citation network
 img: assets/img/3.jpg
-importance: 2
+importance: 5
 category: work
 ---
 

@@ -3,8 +3,9 @@ layout: page
 title: Computational Brand Personality
 description: Developing an integrated framework for understanding brand consistency from online content
 img: assets/img/12.jpg
-importance: 1
+importance: 10
 category: work
+published: false
 
 ---
 

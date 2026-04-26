@@ -1,5 +1,17 @@
 ---
 ---
+@inproceedings{baldeacl2026,
+author = {Balde, Gunjan and Roy, Soumyadeep and Mondal, Mainack and Ganguly, Niloy},
+title = {Learning Faster with Better Tokens: Parameter-Efficient Vocabulary Adaptation for Specialized Text Summarization},
+year = {2026},
+abstract = {Large language models pretrained on general-domain corpora often exhibit tokenization inefficiencies when applied to specialized domains. Although continual pretraining for domain adaptation partially alleviate performance degradation, it does not resolve the fundamental vocabulary mismatch. To address this gap, we introduce a targeted parameter-efficient domain adaptation approach that combines vocabulary adaptation with pretraining for LLM-based text summarization. Our unified framework augments pretrained tokenizers with domain-specific tokens while selectively replacing under-trained and unreachable tokens to limit parameter growth. We evaluate our approach on Llama-3.1-8B and Qwen2.5-7B across legal and medical summarization tasks on a challenge-oriented evaluation protocol focused on expert-driven text and summaries which typically has higher concentration of over-fragmented Out-of-Vocabulary (OOV) words. The vocabulary adaptation algorithm enhances the overall quality of the summarization model by improving semantic similarity between the generated summaries and their references. In addition, the adapted model produces summaries that incorporate more appropriate novel and domain-specific words, leading to improved coherence, relevance, and faithfulness. We further observe that our proposed approach significantly reduce training time by 35-55% over continual pretraining and reduce parameter counts up to 37% w.r.t expansion-only methods.},
+booktitle = {Main Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics},
+location = {San Diego, USA},
+series = {ACL '26 Mains},
+selected={true},
+code={https://github.com/gb-kgp/VocabReplace-Then-Expand}
+}
+
 @inproceedings{longtailqa2026,
 author={Xion, William and Hadler, Uwe and Cofala, Tim and Idahl, Maximilian and Roy, Soumyadeep and Nejdl, Wolfgang},
 title={LongTailQA: Benchmarking LLMs and RAG Models on Disambiguated Long-Tail Entities},
