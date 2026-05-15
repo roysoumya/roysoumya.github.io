@@ -18,7 +18,7 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I work on deployable medical language models — making them efficient enough to run in real clinical workflows, reliable enough for clinical decision-making, and auditable against established medical guidelines.
+I work on building deployable medical language models using real-world data (structured EHR and notes). 
 
 I am a postdoctoral scholar working with [Prof. Tina Hernandez-Boussard](https://profiles.stanford.edu/tina-hernandez-boussard) at the [Division of Computational Medicine](https://computationalmedicine.stanford.edu/), Department of Medicine of Stanford University. My current research at Stanford focuses on the clinical domain of perioperative pain management where I collaborate with a clinical team of surgeons, trauma care physicians and psychologists. I am leading the following two research directions -  (i) developing auditable reasoning LLMs for clinical tasks, using clinical guidelines as the evidence base, and (ii) LLM as a tool to construct executable guideline pathways and understand deviations in real-world patient trajectories, to improve patient care outcomes.
 
