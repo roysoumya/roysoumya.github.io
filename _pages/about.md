@@ -12,7 +12,6 @@ profile:
     <a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Resume</a> | 
     <a href='https://datanalytics101.com'>Research Blog</a>
     <br>Based in the San Francisco Bay Area
-    <!-- Open to industry research roles in frontier medical AI -->
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
@@ -21,29 +20,22 @@ social: true # includes social icons at the bottom of the page
 ---
 I build **medical language models that are reliable enough to deploy** — auditable against clinical guidelines, evaluated for *why* they fail rather than just whether they pass, and efficient enough to adapt to a clinical domain without a research-grade compute budget. My through-line across six years of research: the gap between medical AI that works in a paper and medical AI that a hospital can actually adopt.
 
-<style>
-.profile-highlights { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1.6rem 0; }
-.profile-highlights .highlight { flex: 1 1 calc(50% - 0.75rem); min-width: 180px; padding: 0.9rem 1.05rem; border: 1px solid var(--global-divider-color); border-radius: 8px; background-color: var(--global-card-bg-color); }
-.profile-highlights .num { display: block; font-size: 1.35rem; font-weight: 700; color: var(--global-theme-color); line-height: 1.15; }
-.profile-highlights .lbl { display: block; margin-top: 0.35rem; font-size: 0.85rem; color: var(--global-text-color-light); }
-</style>
-
-<div class="profile-highlights">
-  <div class="highlight">
-    <span class="num">16+ papers</span>
-    <span class="lbl">at SIGIR, ACL, IJCAI, EMNLP, ECAI, and CIKM</span>
+<div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1.6rem 0;">
+  <div style="flex: 1 1 calc(50% - 0.75rem); min-width: 180px; padding: 0.9rem 1.05rem; border: 1px solid var(--global-divider-color); border-radius: 8px; background-color: var(--global-card-bg-color);">
+    <span style="display: block; font-size: 1.35rem; font-weight: 700; color: var(--global-theme-color); line-height: 1.15;">16+ papers</span>
+    <span style="display: block; margin-top: 0.35rem; font-size: 0.85rem; color: var(--global-text-color-light);">at SIGIR, ACL, IJCAI, EMNLP, ECAI, and CIKM</span>
   </div>
-  <div class="highlight">
-    <span class="num">450 days &rarr; 45 hours</span>
-    <span class="lbl">fine-tuning cost cut for medical model adaptation (IJCAI 2024)</span>
+  <div style="flex: 1 1 calc(50% - 0.75rem); min-width: 180px; padding: 0.9rem 1.05rem; border: 1px solid var(--global-divider-color); border-radius: 8px; background-color: var(--global-card-bg-color);">
+    <span style="display: block; font-size: 1.35rem; font-weight: 700; color: var(--global-theme-color); line-height: 1.15;">450 days &rarr; 45 hours</span>
+    <span style="display: block; margin-top: 0.35rem; font-size: 0.85rem; color: var(--global-text-color-light);">fine-tuning cost cut for medical model adaptation (IJCAI 2024)</span>
   </div>
-  <div class="highlight">
-    <span class="num">44 clinicians</span>
-    <span class="lbl">in our USMLE reasoning-error taxonomy for medical LLMs (SIGIR 2024)</span>
+  <div style="flex: 1 1 calc(50% - 0.75rem); min-width: 180px; padding: 0.9rem 1.05rem; border: 1px solid var(--global-divider-color); border-radius: 8px; background-color: var(--global-card-bg-color);">
+    <span style="display: block; font-size: 1.35rem; font-weight: 700; color: var(--global-theme-color); line-height: 1.15;">44 clinicians</span>
+    <span style="display: block; margin-top: 0.35rem; font-size: 0.85rem; color: var(--global-text-color-light);">in our USMLE reasoning-error taxonomy for medical LLMs (SIGIR 2024)</span>
   </div>
-  <div class="highlight">
-    <span class="num">Stanford Medicine</span>
-    <span class="lbl">guideline-grounded clinical reasoning &mdash; current focus</span>
+  <div style="flex: 1 1 calc(50% - 0.75rem); min-width: 180px; padding: 0.9rem 1.05rem; border: 1px solid var(--global-divider-color); border-radius: 8px; background-color: var(--global-card-bg-color);">
+    <span style="display: block; font-size: 1.35rem; font-weight: 700; color: var(--global-theme-color); line-height: 1.15;">Stanford Medicine</span>
+    <span style="display: block; margin-top: 0.35rem; font-size: 0.85rem; color: var(--global-text-color-light);">guideline-grounded clinical reasoning &mdash; current focus</span>
   </div>
 </div>
 
@@ -51,6 +43,6 @@ I am a postdoctoral scholar working with [Prof. Tina Hernandez-Boussard](https:/
 
 That work sits at the meeting point of three threads I have built over the past six years. **Efficient adaptation** of medical and biological foundation models — vocabulary adaptation, adaptive BPE, and the GeneMask masking scheme — making customization practical rather than prohibitive. **Reliability evaluation** of clinical LLMs — fine-grained error taxonomies, out-of-vocabulary impact studies, and benchmarking of single-cell and DNA foundation models — that asks where these systems break down once accuracy is no longer the only metric. And **guideline-grounded reasoning**, which supplies the evidence base that clinical deployment demands. My [research](/research/) page walks through each in detail.
 
-The most direct line to where frontier medical AI is heading runs through the reliability work: passing a multiple-choice licensing exam is not the same as reasoning safely from the right evidence, and most of my recent work is about closing that distance. Code and datasets are public wherever possible — including the [vocabulary-adaptation toolkit](https://github.com/gb-kgp/VocabReplace-Then-Expand) and the released USMLE expert-annotation resource — and the rest is on [GitHub](https://github.com/roysoumya).
+The most direct line to where frontier medical AI is heading runs through the reliability work: passing a multiple-choice licensing exam is not the same as reasoning safely from the right evidence, and most of my recent work is about closing that distance. Code and datasets are public wherever possible — including the [vocabulary-adaptation toolkit](https://github.com/gb-kgp/VocabReplace-Then-Expand) and our released USMLE expert-annotation resource — and the rest is on [GitHub](https://github.com/roysoumya).
 
 Previously: PhD from IIT Kharagpur (2025); Research Associate at L3S Research Center / Leibniz University Hannover (2021–2023); AI Intern at Wipro GE Healthcare (2024–2025); and Research Intern at Adobe Research (2018). Full details are in my [resume](https://roysoumya.github.io/assets/pdf/own_cv.pdf).
