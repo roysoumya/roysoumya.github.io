@@ -7,7 +7,7 @@ nav_order: 5
 ---
 I am a postdoctoral scholar working with [Prof. Tina Hernandez-Boussard](https://profiles.stanford.edu/tina-hernandez-boussard) at the [Division of Computational Medicine](https://computationalmedicine.stanford.edu/) under the Department of Medicine of Stanford University. My project aims to develop auditable and reliable reasoning LLMs for clinical tasks in order to derive better real-world patient outcomes. We use clinical guidelines as an evidence base and focus on the clinical domains of pain management and perioperative care.
 
-I hold a PhD in Computer Science and Engineering from the Indian Institute of Technology Kharagpur, where I worked with  [Prof. Niloy Ganguly](http://www.facweb.iitkgp.ac.in/~niloy/) and [Prof. Shamik Sural](http://www.facweb.iitkgp.ac.in/~shamik/). Here, I was part of the [Complex Networks Research Group (CNeRG)](https://cnerg-iitkgp.github.io/). 
+I hold a PhD in Computer Science and Engineering from the Indian Institute of Technology Kharagpur, where I worked with  [Prof. Niloy Ganguly](https://niloy-ganguly.github.io/) and [Prof. Shamik Sural](https://facweb.iitkgp.ac.in/~shamik/). Here, I was part of the [Complex Networks Research Group (CNeRG)](https://cnerg-iitkgp.github.io/). 
 
 My PhD thesis is titled "Domain Adaptation for Medical Language Understanding", where I developed novel domain adaptation techniques to effectively and efficiently adapt open-domain AI models to the medical domain. 
 
