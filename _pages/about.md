@@ -22,12 +22,7 @@ I build **medical language models that are reliable enough to deploy** — audit
 
 I am a postdoctoral scholar working with [Prof. Tina Hernandez-Boussard](https://profiles.stanford.edu/tina-hernandez-boussard) at the [Division of Computational Medicine](https://computationalmedicine.stanford.edu/), Department of Medicine, Stanford University. My current work is in perioperative pain management, alongside a clinical team of surgeons, trauma physicians, and psychologists, on two fronts: developing auditable reasoning LLMs that ground clinical recommendations in established guidelines, and using LLMs to construct executable guideline pathways that reveal when real-world patient trajectories deviate from them — and whether those deviations help or harm.
 
-<div class="row justify-content-center mt-3 mb-4">
-  <div class="col-sm-11 col-md-10">
-    {% include figure.liquid loading="eager" path="assets/img/research_map.svg" class="img-fluid rounded z-depth-1" alt="Research map: efficient medical foundation models, reliability evaluation on real-world data, and guideline-grounded clinical reasoning converging on deployable clinical AI, grounded in real-world data, across academia and industry." %}
-  </div>
-</div>
-
+![Research map: efficient medical foundation models, reliability evaluation on real-world data, and guideline-grounded clinical reasoning converging on deployable clinical AI, grounded in real-world data, across academia and industry.](assets/img/research_map.png)
 
 
 
