@@ -18,30 +18,11 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I build **medical language models that are reliable enough to deploy** — auditable against clinical guidelines, evaluated for *why* they fail rather than just whether they pass, and efficient enough to adapt to a clinical domain without a research-grade compute budget. My through-line across six years of research: the gap between medical AI that works in a paper and medical AI that a hospital can actually adopt.
-
-<div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1.6rem 0;">
-  <div style="flex: 1 1 calc(50% - 0.75rem); min-width: 180px; padding: 0.9rem 1.05rem; border: 1px solid var(--global-divider-color); border-radius: 8px; background-color: var(--global-card-bg-color);">
-    <span style="display: block; font-size: 1.35rem; font-weight: 700; color: var(--global-theme-color); line-height: 1.15;">16+ papers</span>
-    <span style="display: block; margin-top: 0.35rem; font-size: 0.85rem; color: var(--global-text-color-light);">at SIGIR, ACL, IJCAI, EMNLP, ECAI, and CIKM</span>
-  </div>
-  <div style="flex: 1 1 calc(50% - 0.75rem); min-width: 180px; padding: 0.9rem 1.05rem; border: 1px solid var(--global-divider-color); border-radius: 8px; background-color: var(--global-card-bg-color);">
-    <span style="display: block; font-size: 1.35rem; font-weight: 700; color: var(--global-theme-color); line-height: 1.15;">450 days &rarr; 45 hours</span>
-    <span style="display: block; margin-top: 0.35rem; font-size: 0.85rem; color: var(--global-text-color-light);">fine-tuning cost cut for medical model adaptation (IJCAI 2024)</span>
-  </div>
-  <div style="flex: 1 1 calc(50% - 0.75rem); min-width: 180px; padding: 0.9rem 1.05rem; border: 1px solid var(--global-divider-color); border-radius: 8px; background-color: var(--global-card-bg-color);">
-    <span style="display: block; font-size: 1.35rem; font-weight: 700; color: var(--global-theme-color); line-height: 1.15;">44 clinicians</span>
-    <span style="display: block; margin-top: 0.35rem; font-size: 0.85rem; color: var(--global-text-color-light);">in our USMLE reasoning-error taxonomy for medical LLMs (SIGIR 2024)</span>
-  </div>
-  <div style="flex: 1 1 calc(50% - 0.75rem); min-width: 180px; padding: 0.9rem 1.05rem; border: 1px solid var(--global-divider-color); border-radius: 8px; background-color: var(--global-card-bg-color);">
-    <span style="display: block; font-size: 1.35rem; font-weight: 700; color: var(--global-theme-color); line-height: 1.15;">Stanford Medicine</span>
-    <span style="display: block; margin-top: 0.35rem; font-size: 0.85rem; color: var(--global-text-color-light);">guideline-grounded clinical reasoning &mdash; current focus</span>
-  </div>
-</div>
+I build **medical language models that are reliable enough to deploy** — auditable against clinical guidelines, evaluated for *why* they fail rather than just whether they pass, and efficient enough to adapt to a clinical domain without a research-grade compute budget. My through-line across six years and 16+ peer-reviewed papers (SIGIR, ACL, IJCAI, EMNLP, ECAI, CIKM): the gap between medical AI that works in a paper and medical AI that a hospital can actually adopt.
 
 I am a postdoctoral scholar working with [Prof. Tina Hernandez-Boussard](https://profiles.stanford.edu/tina-hernandez-boussard) at the [Division of Computational Medicine](https://computationalmedicine.stanford.edu/), Department of Medicine, Stanford University. My current work is in perioperative pain management, alongside a clinical team of surgeons, trauma physicians, and psychologists, on two fronts: developing auditable reasoning LLMs that ground clinical recommendations in established guidelines, and using LLMs to construct executable guideline pathways that reveal when real-world patient trajectories deviate from them — and whether those deviations help or harm.
 
-That work sits at the meeting point of three threads I have built over the past six years. **Efficient adaptation** of medical and biological foundation models — vocabulary adaptation, adaptive BPE, and the GeneMask masking scheme — making customization practical rather than prohibitive. **Reliability evaluation** of clinical LLMs — fine-grained error taxonomies, out-of-vocabulary impact studies, and benchmarking of single-cell and DNA foundation models — that asks where these systems break down once accuracy is no longer the only metric. And **guideline-grounded reasoning**, which supplies the evidence base that clinical deployment demands. My [research](/research/) page walks through each in detail.
+That work sits at the meeting point of three threads I have built over the past six years. **Efficient adaptation** of medical and biological foundation models — vocabulary adaptation, adaptive BPE, and the GeneMask masking scheme — including a method that cut medical-model fine-tuning from an estimated 450 days to 45 hours. **Reliability evaluation** of clinical LLMs — a fine-grained USMLE reasoning-error taxonomy built with 44 medical experts, out-of-vocabulary impact studies, and benchmarking of single-cell and DNA foundation models — that asks where these systems break down once accuracy is no longer the only metric. And **guideline-grounded reasoning**, my current focus, which supplies the evidence base that clinical deployment demands. My [research](/research/) page walks through each in detail.
 
 The most direct line to where frontier medical AI is heading runs through the reliability work: passing a multiple-choice licensing exam is not the same as reasoning safely from the right evidence, and most of my recent work is about closing that distance. Code and datasets are public wherever possible — including the [vocabulary-adaptation toolkit](https://github.com/gb-kgp/VocabReplace-Then-Expand) and our released USMLE expert-annotation resource — and the rest is on [GitHub](https://github.com/roysoumya).
 
