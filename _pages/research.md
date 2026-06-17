@@ -5,6 +5,14 @@ permalink: /research/
 nav: true
 nav_order: 3
 ---
+# Research Vision
+
+Frontier models now pass medical licensing exams, but passing a multiple-choice test is not the same as being safe to deploy. The questions that decide whether a clinical system earns trust are different: Does the model reason from the right evidence, or arrive at the right answer for the wrong reasons? Does it know when it is operating outside the guideline base it was validated on? Does it fail loudly and recoverably, rather than confidently and silently?
+
+My research program is built around closing that gap. I want to build medical foundation models whose reasoning is auditable against the clinical evidence base, evaluated against open-ended clinical questions rather than sanitized benchmarks, and efficient enough to adapt to new specialties and modalities without prohibitive cost. The next step is moving from models that answer to systems that act — agentic clinical reasoning that constructs and follows guideline pathways, flags deviation, and keeps the clinician in authority throughout.
+
+I am most excited by work that treats reliability, faithful reasoning, and real-world deployment as first-class research problems rather than afterthoughts — the conditions under which frontier AI actually reaches patient care.
+
 # Research Areas of Interest
 
 I work on **deployable medical language models** — making them efficient enough to run in real clinical workflows, reliable enough for clinical decision-making, and auditable against established medical guidelines.
