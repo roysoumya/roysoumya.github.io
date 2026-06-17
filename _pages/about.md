@@ -2,7 +2,8 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Building reliable medical AI &middot; Postdoctoral Scholar, Stanford Medicine
+subtitle: Postdoc at Stanford Medicine
+#<a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Curriculum Vitae</a> |  <a href='https://datanalytics101.com'>Research Blog</a>
 
 profile:
   align: right
@@ -11,9 +12,8 @@ profile:
   more_info: >
     <a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Resume</a> | 
     <a href='https://datanalytics101.com'>Research Blog</a>
-    <br>Based in the San Francisco Bay Area
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,3 +27,7 @@ That work sits at the meeting point of three threads I have built over the past 
 The most direct line to where frontier medical AI is heading runs through the reliability work: passing a multiple-choice licensing exam is not the same as reasoning safely from the right evidence, and most of my recent work is about closing that distance. Code and datasets are public wherever possible — including the [vocabulary-adaptation toolkit](https://github.com/gb-kgp/VocabReplace-Then-Expand) and our released USMLE expert-annotation resource — and the rest is on [GitHub](https://github.com/roysoumya).
 
 Previously: PhD from IIT Kharagpur (2025); Research Associate at L3S Research Center / Leibniz University Hannover (2021–2023); AI Intern at Wipro GE Healthcare (2024–2025); and Research Intern at Adobe Research (2018). Full details are in my [resume](https://roysoumya.github.io/assets/pdf/own_cv.pdf).
+
+
+
+
