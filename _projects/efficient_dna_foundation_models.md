@@ -25,7 +25,7 @@ DNA foundation models are a substantial compute investment for the bioinformatic
 
 ## Invited Presentation
 
-In August 2025, I was invited to present this research thread at the [1st Symposium on Intersections: Statistical Genomics and Complex/Chronic Disease Biology](https://nibmg.ac.in/) at the National Institute of Biomedical Genomics (NIBMG), Kalyani.
+In August 2025, I was invited to present this research thread at the 1st Symposium on Intersections: Statistical Genomics and Complex/Chronic Disease Biology at the National Institute of Biomedical Genomics (NIBMG), Kalyani.
 
 ## Related Work
 
