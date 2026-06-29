@@ -7,7 +7,7 @@ subtitle: Postdoc at Stanford Medicine
 
 profile:
   align: right
-  image: headshot.jpeg
+  image: headshot.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Resume</a> | 
