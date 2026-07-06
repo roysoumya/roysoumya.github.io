@@ -1,132 +1,125 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 1040" width="920" height="1040" role="img" aria-label="Research map of Soumyadeep Roy: efficient medical foundation models, reliability evaluation on real-world data, and guideline-grounded clinical reasoning converging on deployable clinical AI.">
+<svg viewBox="0 0 900 1185" xmlns="http://www.w3.org/2000/svg" font-family="'DejaVu Sans','Segoe UI',system-ui,sans-serif">
   <defs>
     <style>
-      :root{}
-      .ink{fill:#14253B;}
-      .slate{fill:#5C6B7A;}
-      .eyebrow{font-family:'Helvetica Neue',Inter,system-ui,Arial,sans-serif;font-weight:600;letter-spacing:.14em;text-transform:uppercase;}
-      .h{font-family:'Helvetica Neue',Inter,system-ui,Arial,sans-serif;font-weight:700;}
-      .b{font-family:'Helvetica Neue',Inter,system-ui,Arial,sans-serif;font-weight:500;}
-      .cap{font-family:'Helvetica Neue',Inter,system-ui,Arial,sans-serif;font-weight:500;letter-spacing:.01em;}
-      text{ -webkit-font-smoothing:antialiased; }
+      .eyebrow { font-weight:700; letter-spacing:2px; }
+      .tiny    { letter-spacing:1.5px; font-weight:700; }
     </style>
   </defs>
 
-  <!-- panel -->
-  <rect x="4" y="4" width="912" height="1032" rx="22" fill="#F5F8F9" stroke="#DCE5E9" stroke-width="1.5"/>
+  <!-- ===== WHITE BACKGROUND ===== -->
+  <rect x="0" y="0" width="900" height="1185" fill="#ffffff"/>
 
-  <!-- ===================== HEADER ===================== -->
-  <text x="56" y="58" class="eyebrow" font-size="12.5" fill="#0E7C86">Soumyadeep Roy</text>
-  <text x="864" y="58" class="eyebrow" font-size="12.5" fill="#5C6B7A" text-anchor="end">Postdoc · Stanford Medicine · Computational Medicine</text>
+  <!-- ===== HEADER ===== -->
+  <text x="55" y="58"  class="eyebrow" font-size="17" fill="#1f6f66">Soumyadeep Roy</text>
+  <text x="845" y="58" class="eyebrow" font-size="15" fill="#4a5661" text-anchor="end">Postdoc &#183; Stanford Medicine &#183; Computational Medicine</text>
 
-  <text x="56" y="98" class="h ink" font-size="27">Deployable medical language models,</text>
-  <text x="56" y="132" class="h" font-size="27"><tspan fill="#14253B">grounded in </tspan><tspan fill="#B16E12">real-world clinical data</tspan></text>
+  <text x="53" y="112" font-size="42" font-weight="800" fill="#16283f">Efficient AI models for medicine &amp; biology,</text>
+  <text x="53" y="160" font-size="42" font-weight="800" fill="#16283f">rigorously <tspan fill="#c68216">evaluated</tspan></text>
 
-  <text x="56" y="160" class="b slate" font-size="12.5">16+ peer-reviewed papers · SIGIR · ACL · EMNLP · IJCAI · ECAI · CIKM · Frontiers in AI</text>
+  <text x="55" y="197" font-size="17" fill="#64717e">16+ peer-reviewed papers &#183; ACL &#183; EMNLP &#183; SIGIR &#183; IJCAI &#183; ECAI &#183; CIKM &#183; Frontiers in AI</text>
 
-  <line x1="56" y1="178" x2="864" y2="178" stroke="#DCE5E9" stroke-width="1.5"/>
+  <line x1="55" y1="222" x2="845" y2="222" stroke="#d9e0e4" stroke-width="1.5"/>
 
-  <!-- ===================== VENN SECTION ===================== -->
-  <text x="56" y="204" class="eyebrow slate" font-size="11.5">Research focus — three converging threads</text>
+  <!-- ===== SECTION LABEL ===== -->
+  <text x="55" y="256" class="eyebrow" font-size="16" fill="#3c4a56">Research focus &#8212; three converging threads</text>
 
-  <!-- leader lines (behind circles) -->
-  <g stroke-width="1.2" fill="none" opacity="0.55">
-    <path d="M250 614 L300 552" stroke="#DA8A1F"/>
-    <path d="M696 614 L620 552" stroke="#4A53B8"/>
-  </g>
-  <circle cx="300" cy="552" r="2.6" fill="#DA8A1F"/>
-  <circle cx="620" cy="552" r="2.6" fill="#4A53B8"/>
+  <!-- ===== VENN DIAGRAM ===== -->
+  <!-- Top circle: Efficient training (teal) -->
+  <circle cx="450" cy="392" r="180" fill="#2f8079" fill-opacity="0.16" stroke="#2f8079" stroke-width="2"/>
+  <!-- Bottom-left: Evaluation (amber) -->
+  <circle cx="350" cy="558" r="180" fill="#d68f24" fill-opacity="0.15" stroke="#d68f24" stroke-width="2"/>
+  <!-- Bottom-right: Biomedical NLP (indigo) -->
+  <circle cx="550" cy="558" r="180" fill="#5257c4" fill-opacity="0.13" stroke="#5257c4" stroke-width="2"/>
 
-  <!-- circles -->
-  <g stroke-width="1.6">
-    <circle cx="460" cy="350" r="150" fill="#0E7C86" fill-opacity="0.24" stroke="#0E7C86" stroke-opacity="0.85"/>
-    <circle cx="378" cy="488" r="150" fill="#DA8A1F" fill-opacity="0.24" stroke="#C8791A" stroke-opacity="0.85"/>
-    <circle cx="542" cy="488" r="150" fill="#4A53B8" fill-opacity="0.22" stroke="#4A53B8" stroke-opacity="0.85"/>
-  </g>
+  <!-- Top thread text (inside top circle) -->
+  <text x="450" y="300" class="eyebrow" font-size="14" fill="#1f6f66" text-anchor="middle">Pretrain + adapt</text>
+  <text x="450" y="337" font-size="27" font-weight="800" fill="#16283f" text-anchor="middle">Efficient model</text>
+  <text x="450" y="368" font-size="27" font-weight="800" fill="#16283f" text-anchor="middle">training</text>
+  <text x="450" y="396" font-size="15" fill="#5a6773" text-anchor="middle">SLMs &#183; LLMs &#183; DNA transformers</text>
 
-  <!-- top lobe: efficient foundation models -->
-  <text x="460" y="248" class="eyebrow" font-size="11" fill="#0A5B63" text-anchor="middle">Pretrain + adapt</text>
-  <text x="460" y="274" class="h ink" font-size="18.5" text-anchor="middle">Efficient foundation</text>
-  <text x="460" y="295" class="h ink" font-size="18.5" text-anchor="middle">models</text>
-  <text x="460" y="315" class="cap slate" font-size="11" text-anchor="middle">GeneMask · adaptive BPE · vocabulary adaptation</text>
+  <!-- Goal circle (center) -->
+  <circle cx="450" cy="500" r="70" fill="#0f2338" stroke="#8a1f2c" stroke-width="3"/>
+  <text x="450" y="482" class="tiny" font-size="11" fill="#c07f88" text-anchor="middle">THE GOAL</text>
+  <text x="450" y="506" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">Trustworthy</text>
+  <text x="450" y="528" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle">clinical AI</text>
 
-  <!-- bottom-left lobe: reliability evaluation -->
-  <text x="64" y="600" class="eyebrow" font-size="11" fill="#B16E12">Evaluate on real data</text>
-  <text x="64" y="624" class="h ink" font-size="18.5">Reliability</text>
-  <text x="64" y="645" class="h ink" font-size="18.5">evaluation</text>
-  <text x="64" y="664" class="cap slate" font-size="11">USMLE error taxonomy · OOV impact · bias audits</text>
+  <!-- Left thread label (Evaluation) -->
+  <circle cx="300" cy="612" r="4" fill="#d68f24"/>
+  <line x1="300" y1="612" x2="205" y2="670" stroke="#d68f24" stroke-width="1.5"/>
+  <text x="53" y="668" class="eyebrow" font-size="14" fill="#b9781a">Stress-test + audit</text>
+  <text x="53" y="704" font-size="27" font-weight="800" fill="#16283f">Reliability</text>
+  <text x="53" y="735" font-size="27" font-weight="800" fill="#16283f">evaluation</text>
+  <text x="53" y="763" font-size="15" fill="#5a6773">USMLE taxonomy &#183; trajectory safety &#183; uncertainty</text>
 
-  <!-- bottom-right lobe: guideline-grounded reasoning -->
-  <text x="856" y="600" class="eyebrow" font-size="11" fill="#3A42A0" text-anchor="end">Reason + decide</text>
-  <text x="856" y="624" class="h ink" font-size="18.5" text-anchor="end">Guideline-grounded</text>
-  <text x="856" y="645" class="h ink" font-size="18.5" text-anchor="end">reasoning</text>
-  <text x="856" y="664" class="cap slate" font-size="11" text-anchor="end">auditable LLMs · executable pathways</text>
+  <!-- Right thread label (Biomedical NLP) -->
+  <circle cx="600" cy="612" r="4" fill="#5257c4"/>
+  <line x1="600" y1="612" x2="695" y2="670" stroke="#5257c4" stroke-width="1.5"/>
+  <text x="847" y="668" class="eyebrow" font-size="14" fill="#4247a8" text-anchor="end">Understand clinical text</text>
+  <text x="847" y="704" font-size="27" font-weight="800" fill="#16283f" text-anchor="end">Biomedical</text>
+  <text x="847" y="735" font-size="27" font-weight="800" fill="#16283f" text-anchor="end">NLP</text>
+  <text x="847" y="763" font-size="15" fill="#5a6773" text-anchor="end">summarization &#183; trials &#183; clinical dialogue</text>
 
-  <!-- core -->
-  <circle cx="460" cy="442" r="60" fill="#14253B" stroke="#8C1515" stroke-width="2.2"/>
-  <text x="460" y="431" class="eyebrow" font-size="8.5" fill="#C99" text-anchor="middle" opacity="0.9">the goal</text>
-  <text x="460" y="450" class="h" font-size="14.5" fill="#FFFFFF" text-anchor="middle">Deployable</text>
-  <text x="460" y="468" class="h" font-size="14.5" fill="#FFFFFF" text-anchor="middle">clinical AI</text>
-
-  <!-- ===================== REAL-WORLD DATA BAND ===================== -->
-  <rect x="56" y="702" width="808" height="98" rx="16" fill="#FBEEDA" stroke="#EBC58A" stroke-width="1.5"/>
-  <rect x="56" y="702" width="6" height="98" rx="3" fill="#DA8A1F"/>
-  <text x="84" y="734" class="eyebrow" font-size="12" fill="#B16E12">Grounded in real-world clinical data</text>
-  <text x="84" y="758" class="b ink" font-size="13.5">Evaluation and decision support built on data from actual patient care.</text>
+  <!-- ===== CALLOUT BOX ===== -->
+  <rect x="55" y="800" width="790" height="128" rx="14" fill="#fdf4e3" stroke="#eccf9a" stroke-width="1.5"/>
+  <rect x="55" y="800" width="7" height="128" rx="3.5" fill="#d68f24"/>
+  <text x="88" y="838" class="eyebrow" font-size="17" fill="#b9781a">From DNA to the bedside</text>
+  <text x="88" y="868" font-size="17" fill="#3c4a56">Efficient foundation models, then evaluated for safety on real-world clinical data.</text>
 
   <!-- chips -->
-  <g>
-    <rect x="84" y="772" width="86" height="26" rx="13" fill="#FFFFFF" stroke="#E3C189" stroke-width="1"/>
-    <text x="127" y="789" class="b ink" font-size="11.5" text-anchor="middle">MIMIC-IV</text>
-
-    <rect x="182" y="772" width="150" height="26" rx="13" fill="#FFFFFF" stroke="#E3C189" stroke-width="1"/>
-    <text x="257" y="789" class="b ink" font-size="11.5" text-anchor="middle">structured EHR + notes</text>
-
-    <rect x="344" y="772" width="160" height="26" rx="13" fill="#FFFFFF" stroke="#E3C189" stroke-width="1"/>
-    <text x="424" y="789" class="b ink" font-size="11.5" text-anchor="middle">bias &amp; fairness audits</text>
-
-    <rect x="516" y="772" width="172" height="26" rx="13" fill="#FFFFFF" stroke="#E3C189" stroke-width="1"/>
-    <text x="602" y="789" class="b ink" font-size="11.5" text-anchor="middle">perioperative pain care</text>
+  <g font-size="14" fill="#3c4a56">
+    <rect x="88"  y="886" width="150" height="30" rx="15" fill="#ffffff" stroke="#e2d3ac"/>
+    <text x="163" y="906" text-anchor="middle">DNABert / LOGO</text>
+    <rect x="250" y="886" width="150" height="30" rx="15" fill="#ffffff" stroke="#e2d3ac"/>
+    <text x="325" y="906" text-anchor="middle">small + large LMs</text>
+    <rect x="412" y="886" width="128" height="30" rx="15" fill="#ffffff" stroke="#e2d3ac"/>
+    <text x="476" y="906" text-anchor="middle">MIMIC-III/IV</text>
+    <rect x="552" y="886" width="196" height="30" rx="15" fill="#ffffff" stroke="#e2d3ac"/>
+    <text x="650" y="906" text-anchor="middle">10&#215; pretraining speedup</text>
   </g>
 
-  <!-- ===================== EXPERIENCE RAIL ===================== -->
-  <text x="56" y="848" class="eyebrow slate" font-size="11.5">Academia + industry + clinic</text>
-  <line x1="100" y1="906" x2="824" y2="906" stroke="#D3DDE2" stroke-width="2"/>
+  <!-- ===== TIMELINE ===== -->
+  <text x="55" y="978" class="eyebrow" font-size="16" fill="#3c4a56">Academia + industry + clinic</text>
 
-  <!-- node 1: Adobe (industry) -->
-  <text x="120" y="888" class="h ink" font-size="12.5" text-anchor="middle">Adobe Research</text>
-  <circle cx="120" cy="906" r="7" fill="#DA8A1F"/>
-  <text x="120" y="930" class="b slate" font-size="11" text-anchor="middle">Research Intern · 2018</text>
-  <rect x="89" y="940" width="62" height="17" rx="8.5" fill="#DA8A1F"/>
-  <text x="120" y="952" class="eyebrow" font-size="8.5" fill="#FFFFFF" text-anchor="middle">Industry</text>
+  <line x1="110" y1="1055" x2="800" y2="1055" stroke="#d9e0e4" stroke-width="2.5"/>
 
-  <!-- node 2: L3S (academia) -->
-  <text x="305" y="888" class="h ink" font-size="12.5" text-anchor="middle">L3S · Hannover</text>
-  <circle cx="305" cy="906" r="6.5" fill="#FFFFFF" stroke="#0E7C86" stroke-width="2.4"/>
-  <text x="305" y="930" class="b slate" font-size="11" text-anchor="middle">Research Associate · 2021–23</text>
+  <!-- Adobe -->
+  <text x="110" y="1028" font-size="13" font-weight="700" fill="#16283f" text-anchor="middle">Adobe Research</text>
+  <circle cx="110" cy="1055" r="8" fill="#d68f24"/>
+  <text x="110" y="1084" font-size="12" fill="#64717e" text-anchor="middle">Research Intern &#183; 2018</text>
+  <rect x="72" y="1098" width="76" height="24" rx="12" fill="#d68f24"/>
+  <text x="110" y="1115" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">Industry</text>
 
-  <!-- node 3: Wipro GE (industry) -->
-  <text x="470" y="888" class="h ink" font-size="12.5" text-anchor="middle">Wipro GE Healthcare</text>
-  <circle cx="470" cy="906" r="7" fill="#DA8A1F"/>
-  <text x="470" y="930" class="b slate" font-size="11" text-anchor="middle">AI Intern · 2024–25</text>
-  <rect x="439" y="940" width="62" height="17" rx="8.5" fill="#DA8A1F"/>
-  <text x="470" y="952" class="eyebrow" font-size="8.5" fill="#FFFFFF" text-anchor="middle">Industry</text>
+  <!-- IIT KGP (MS) -->
+  <text x="248" y="1028" font-size="13" font-weight="700" fill="#16283f" text-anchor="middle">IIT Kharagpur</text>
+  <circle cx="248" cy="1055" r="8" fill="#ffffff" stroke="#2f8079" stroke-width="2.5"/>
+  <text x="248" y="1084" font-size="12" fill="#64717e" text-anchor="middle">MS (Research) &#183; 2019</text>
 
-  <!-- node 4: IIT KGP (academia) -->
-  <text x="640" y="888" class="h ink" font-size="12.5" text-anchor="middle">IIT Kharagpur</text>
-  <circle cx="640" cy="906" r="6.5" fill="#FFFFFF" stroke="#0E7C86" stroke-width="2.4"/>
-  <text x="640" y="930" class="b slate" font-size="11" text-anchor="middle">PhD, CSE · 2025</text>
+  <!-- L3S -->
+  <text x="386" y="1028" font-size="13" font-weight="700" fill="#16283f" text-anchor="middle">L3S &#183; Hannover</text>
+  <circle cx="386" cy="1055" r="8" fill="#ffffff" stroke="#2f8079" stroke-width="2.5"/>
+  <text x="386" y="1084" font-size="12" fill="#64717e" text-anchor="middle">Researcher &#183; 2021&#8211;23</text>
 
-  <!-- node 5: Stanford (now) -->
-  <text x="805" y="888" class="h ink" font-size="12.5" text-anchor="middle">Stanford Medicine</text>
-  <circle cx="805" cy="906" r="8" fill="#8C1515"/>
-  <circle cx="805" cy="906" r="12" fill="none" stroke="#8C1515" stroke-width="1.4" opacity="0.4"/>
-  <text x="805" y="930" class="b slate" font-size="11" text-anchor="middle">Postdoc · 2025–</text>
-  <rect x="785" y="940" width="40" height="17" rx="8.5" fill="#8C1515"/>
-  <text x="805" y="952" class="eyebrow" font-size="8.5" fill="#FFFFFF" text-anchor="middle">Now</text>
+  <!-- Wipro GE -->
+  <text x="524" y="1028" font-size="13" font-weight="700" fill="#16283f" text-anchor="middle">Wipro GE Healthcare</text>
+  <circle cx="524" cy="1055" r="8" fill="#d68f24"/>
+  <text x="524" y="1084" font-size="12" fill="#64717e" text-anchor="middle">AI Intern &#183; 2024&#8211;25</text>
+  <rect x="486" y="1098" width="76" height="24" rx="12" fill="#d68f24"/>
+  <text x="524" y="1115" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">Industry</text>
 
-  <!-- footer -->
-  <line x1="56" y1="990" x2="864" y2="990" stroke="#DCE5E9" stroke-width="1.5"/>
-  <text x="56" y="1014" class="b slate" font-size="11">roysoumya.github.io</text>
-  <text x="864" y="1014" class="b slate" font-size="11" text-anchor="end">NLP · ML for healthcare · trustworthy clinical AI</text>
+  <!-- IIT KGP (PhD) -->
+  <text x="662" y="1028" font-size="13" font-weight="700" fill="#16283f" text-anchor="middle">IIT Kharagpur</text>
+  <circle cx="662" cy="1055" r="8" fill="#ffffff" stroke="#2f8079" stroke-width="2.5"/>
+  <text x="662" y="1084" font-size="12" fill="#64717e" text-anchor="middle">PhD, CSE &#183; 2025</text>
+
+  <!-- Stanford -->
+  <text x="800" y="1028" font-size="13" font-weight="700" fill="#16283f" text-anchor="middle">Stanford Medicine</text>
+  <circle cx="800" cy="1055" r="9" fill="#8a1f2c" stroke="#f2c9cf" stroke-width="3"/>
+  <text x="800" y="1084" font-size="12" fill="#64717e" text-anchor="middle">Postdoc &#183; 2025&#8211;</text>
+  <rect x="775" y="1098" width="50" height="24" rx="12" fill="#8a1f2c"/>
+  <text x="800" y="1115" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">Now</text>
+
+  <!-- ===== FOOTER ===== -->
+  <line x1="55" y1="1148" x2="845" y2="1148" stroke="#d9e0e4" stroke-width="1.5"/>
+  <text x="55" y="1174" font-size="14" fill="#64717e">roysoumya.github.io</text>
+  <text x="845" y="1174" font-size="14" fill="#64717e" text-anchor="end">efficient training &#183; evaluation &#183; biomedical NLP</text>
 </svg>
