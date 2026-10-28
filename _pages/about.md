@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Home
-permalink: /
+permalink: /about/
 subtitle: Postdoc at Stanford Medicine
 #<a href='https://roysoumya.github.io/assets/pdf/own_cv.pdf'>Curriculum Vitae</a> |  <a href='https://datanalytics101.com'>Research Blog</a>
 
